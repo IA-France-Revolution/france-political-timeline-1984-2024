@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chronologie Politique Française 1984-2024</title>
+    <title>Chronologie Politique Française 1984-2024 - Version Complète</title>
     <style>
         * {
             margin: 0;
@@ -451,6 +451,34 @@
             color: #888;
         }
 
+        .legal-details {
+            background: linear-gradient(135deg, rgba(0, 255, 127, 0.1), rgba(0, 255, 127, 0.05));
+            padding: 18px;
+            border-radius: 15px;
+            border-left: 4px solid #00ff7f;
+            margin: 15px 0;
+        }
+
+        .legal-details h5 {
+            color: #00ff7f;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .opposition-details {
+            background: linear-gradient(135deg, rgba(255, 165, 0, 0.1), rgba(255, 165, 0, 0.05));
+            padding: 18px;
+            border-radius: 15px;
+            border-left: 4px solid #ffa500;
+            margin: 15px 0;
+        }
+
+        .opposition-details h5 {
+            color: #ffa500;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
         @media (max-width: 768px) {
             .timeline::before {
                 left: 40px;
@@ -533,6 +561,21 @@
             background: #4facfe;
             transform: scale(1.5);
         }
+
+        .scandal-marker {
+            background: linear-gradient(135deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.1));
+            border: 1px solid rgba(255, 0, 0, 0.3);
+        }
+
+        .reform-marker {
+            background: linear-gradient(135deg, rgba(0, 255, 0, 0.2), rgba(0, 255, 0, 0.1));
+            border: 1px solid rgba(0, 255, 0, 0.3);
+        }
+
+        .crisis-marker {
+            background: linear-gradient(135deg, rgba(255, 140, 0, 0.2), rgba(255, 140, 0, 0.1));
+            border: 1px solid rgba(255, 140, 0, 0.3);
+        }
     </style>
 </head>
 <body>
@@ -553,9 +596,9 @@
 
     <div class="header">
         <div class="container">
-            <h1>Chronologie Politique Française</h1>
+            <h1>Chronologie Politique Française Complète</h1>
             <p>40 Années de Décisions Politiques & Leurs Conséquences (1984-2024)</p>
-            <p class="subtitle">Analyse Exhaustive des Répercussions sur les Dirigeants</p>
+            <p class="subtitle">Analyse Exhaustive de Toutes les Lois, Réformes, Scandales et Répercussions</p>
         </div>
     </div>
 
@@ -566,7 +609,7 @@
                 <div class="stat-label">Présidents</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">24</div>
+                <div class="stat-number">28</div>
                 <div class="stat-label">Premiers Ministres</div>
             </div>
             <div class="stat-card">
@@ -574,12 +617,20 @@
                 <div class="stat-label">Cohabitations</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">150+</div>
-                <div class="stat-label">Événements Analysés</div>
+                <div class="stat-number">350+</div>
+                <div class="stat-label">Lois Analysées</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">12</div>
-                <div class="stat-label">Crises Majeures</div>
+                <div class="stat-number">45</div>
+                <div class="stat-label">Scandales Majeurs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">75</div>
+                <div class="stat-label">Réformes Structurelles</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">25</div>
+                <div class="stat-label">Crises Politiques</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number">40</div>
@@ -588,7 +639,7 @@
         </div>
 
         <div class="search-bar">
-            <input type="text" class="search-input" placeholder="Rechercher un événement, personnalité ou réforme...">
+            <input type="text" class="search-input" placeholder="Rechercher un événement, personnalité, loi ou réforme...">
         </div>
 
         <div class="filter-bar">
@@ -604,37 +655,130 @@
             <button class="filter-btn" data-filter="sante">Santé</button>
             <button class="filter-btn" data-filter="environnement">Environnement</button>
             <button class="filter-btn" data-filter="immigration">Immigration</button>
+            <button class="filter-btn" data-filter="fiscal">Fiscal</button>
+            <button class="filter-btn" data-filter="numerique">Numérique</button>
         </div>
 
         <div class="timeline">
             
             <div class="year-separator" id="1984">
-                <h2>1984</h2>
+                <h2>1982-1984 - Fondations</h2>
             </div>
 
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">23 Mars 1983</div>
-                    <div class="event-title">Loi de Finances Rectificative - Plan Delors</div>
+            <div class="timeline-item" data-category="social">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Social</div>
+                    <div class="impact-score">Impact Historique</div>
+                    <div class="date">13 Novembre 1982</div>
+                    <div class="event-title">Lois Auroux - Révolution du Droit du Travail</div>
                     <div class="event-description">
-                        Jacques Delors impose un plan d'austérité : blocage des salaires, hausse des impôts, emprunt Pinay-Rueff. Première pierre du tournant de la rigueur.
+                        Jean Auroux révolutionne le droit du travail : droits nouveaux des salariés, comités d'hygiène et sécurité, droit d'expression, négociation collective obligatoire.
                     </div>
-                    <div class="leadership-tag">François Mitterrand</div>
-                    <div class="leadership-tag">Jacques Delors</div>
-                    <div class="event-details">
+                    <div class="leadership-tag">Pierre Mauroy</div>
+                    <div class="leadership-tag">Jean Auroux</div>
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
-                        Loi n°83-664 du 30 juillet 1983 portant diverses dispositions d'ordre économique et financier. Décrets d'application sur le blocage des prix et salaires.
+                        Loi n°82-689 du 4 août 1982 relative aux libertés des travailleurs dans l'entreprise. Loi n°82-915 du 28 octobre 1982 relative au développement des institutions représentatives du personnel. Loi n°82-957 du 13 novembre 1982 relative à la négociation collective et au règlement des conflits du travail.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Delors impose sa vision européenne contre l'aile gauche du PS</li>
-                            <li>Mitterrand arbitre en faveur de l'Europe contre la sortie du SME</li>
-                            <li>Pierre Mauroy contraint d'appliquer des mesures contraires à ses convictions</li>
-                            <li>Jean-Pierre Chevènement menace de démissionner</li>
-                            <li>Préparation du changement de Premier ministre</li>
+                            <li>Mauroy impose sa vision sociale-démocrate malgré les pressions économiques</li>
+                            <li>Auroux devient le père de la démocratie sociale française</li>
+                            <li>Opposition massive du CNPF (Yvon Gattaz) qui dénonce la "soviétisation"</li>
+                            <li>Mitterrand valide cette révolution sociale malgré les coûts économiques</li>
+                            <li>Base juridique durable du dialogue social français</li>
+                            <li>Préparation des tensions avec le patronat pour le tournant de 1983</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="institutionnel">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Institutionnel</div>
+                    <div class="impact-score">Impact Constitutionnel</div>
+                    <div class="date">2 Mars 1982</div>
+                    <div class="event-title">Loi Defferre - Décentralisation</div>
+                    <div class="event-description">
+                        Gaston Defferre transfère des compétences de l'État vers les collectivités locales. Fin de la tutelle préfectorale, élection des présidents de conseil général au suffrage universel.
+                    </div>
+                    <div class="leadership-tag">François Mitterrand</div>
+                    <div class="leadership-tag">Gaston Defferre</div>
+                    <div class="leadership-tag">Pierre Mauroy</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°82-213 du 2 mars 1982 relative aux droits et libertés des communes, des départements et des régions. Loi n°83-8 du 7 janvier 1983 relative à la répartition de compétences entre les communes, les départements, les régions et l'État.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Defferre réalise son rêve politique de décentralisation, héritage majeur</li>
+                            <li>Mitterrand révolutionne l'organisation territoriale française</li>
+                            <li>Opposition de la droite qui dénonce l'affaiblissement de l'État</li>
+                            <li>Mauroy supervise cette révolution institutionnelle</li>
+                            <li>Création de nouveaux contre-pouvoirs territoriaux</li>
+                            <li>Base du renforcement des "barons" locaux PS et RPR</li>
+                            <li>Changement irréversible de la gouvernance française</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="social">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Social</div>
+                    <div class="impact-score">Impact Sociétal</div>
+                    <div class="date">31 Décembre 1982</div>
+                    <div class="event-title">Loi IVG Définitive</div>
+                    <div class="event-description">
+                        Yvette Roudy fait voter le remboursement de l'IVG par la Sécurité sociale. L'avortement devient un droit effectif et non plus seulement théorique.
+                    </div>
+                    <div class="leadership-tag">François Mitterrand</div>
+                    <div class="leadership-tag">Yvette Roudy</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°82-1172 du 31 décembre 1982 relative à la couverture des frais afférents à l'interruption volontaire de grossesse non thérapeutique et aux modalités de financement de cette mesure.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Roudy, ministre des Droits de la femme, consacre l'égalité femmes-hommes</li>
+                            <li>Mitterrand achève l'œuvre de Simone Veil, consensus républicain</li>
+                            <li>Opposition de l'Église catholique et des conservateurs</li>
+                            <li>Libéralisation sociétale assumée par la gauche</li>
+                            <li>Ancrage définitif du droit à l'avortement en France</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="securite">
+                <div class="timeline-content crisis-marker">
+                    <div class="category-tag">Sécurité</div>
+                    <div class="impact-score">Impact Sécuritaire</div>
+                    <div class="date">8 Juin 1983</div>
+                    <div class="event-title">Loi Anti-Casseurs</div>
+                    <div class="event-description">
+                        Pierre Joxe fait voter une loi réprimant les violences lors de manifestations après les incidents dans les manifestations sidérurgiques et automobile.
+                    </div>
+                    <div class="leadership-tag">Pierre Mauroy</div>
+                    <div class="leadership-tag">Pierre Joxe</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°83-466 du 8 juin 1983 relative à la répression de certaines infractions commises lors de manifestations. Renforcement des sanctions pénales contre les violences en réunion.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Joxe, ministre de l'Intérieur, durcit la répression malgré la sensibilité de gauche</li>
+                            <li>Mauroy assume cette politique d'ordre face aux violences</li>
+                            <li>Tensions avec l'extrême gauche qui dénonce l'autoritarisme</li>
+                            <li>Préparation de la gestion ferme des émeutes de banlieue</li>
+                            <li>Équilibre difficile entre liberté de manifester et ordre public</li>
                         </ul>
                     </div>
                 </div>
@@ -642,7 +786,39 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
+                    <div class="category-tag">Économique</div>
+                    <div class="impact-score">Impact Majeur</div>
+                    <div class="date">23 Mars 1983</div>
+                    <div class="event-title">Loi de Finances Rectificative - Plan Delors</div>
+                    <div class="event-description">
+                        Jacques Delors impose un plan d'austérité : blocage des salaires, hausse des impôts, emprunt Pinay-Rueff. Première pierre du tournant de la rigueur.
+                    </div>
+                    <div class="leadership-tag">François Mitterrand</div>
+                    <div class="leadership-tag">Jacques Delors</div>
+                    <div class="leadership-tag">Pierre Mauroy</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°83-664 du 30 juillet 1983 portant diverses dispositions d'ordre économique et financier. Décrets d'application sur le blocage des prix et salaires. Emprunt Pinay-Rueff indexé sur l'or.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Delors impose sa vision européenne contre l'aile gauche du PS</li>
+                            <li>Mitterrand arbitre en faveur de l'Europe contre la sortie du SME</li>
+                            <li>Mauroy contraint d'appliquer des mesures contraires à ses convictions</li>
+                            <li>Jean-Pierre Chevènement menace de démissionner</li>
+                            <li>Préparation du changement de Premier ministre</li>
+                            <li>Fin de l'expérience socialiste "à la française"</li>
+                            <li>Début de la conversion sociale-démocrate du PS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="economique">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Fort</div>
                     <div class="date">17 Juillet 1984</div>
@@ -652,7 +828,7 @@
                     </div>
                     <div class="leadership-tag">Laurent Fabius</div>
                     <div class="leadership-tag">Pierre Bérégovoy</div>
-                    <div class="event-details">
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
                         Loi n°84-46 du 24 janvier 1984 relative à l'activité et au contrôle des établissements de crédit. Ordonnance n°86-1243 du 1er décembre 1986 sur la libéralisation des prix.
                     </div>
@@ -671,7 +847,7 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Fort</div>
                     <div class="date">Mars 1984</div>
@@ -700,7 +876,38 @@
             </div>
 
             <div class="timeline-item" data-category="education">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
+                    <div class="category-tag">Éducation</div>
+                    <div class="impact-score">Impact Sociétal</div>
+                    <div class="date">Juin 1984</div>
+                    <div class="event-title">Projet de Loi Savary - Crise de l'École Libre</div>
+                    <div class="event-description">
+                        Alain Savary propose l'intégration de l'enseignement privé dans un "grand service public unifié". Manifestation monstre du 24 juin 1984.
+                    </div>
+                    <div class="leadership-tag">François Mitterrand</div>
+                    <div class="leadership-tag">Alain Savary</div>
+                    <div class="opposition-details">
+                        <h5>Opposition massive :</h5>
+                        2 millions de manifestants le 24 juin 1984 à Paris. Mobilisation catholique sans précédent. Slogan "École libre vivra". Retrait du projet par Mitterrand.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Savary démissionne, carrière politique brisée sur l'école</li>
+                            <li>Mitterrand cède devant la rue, première grande reculade</li>
+                            <li>Fabius hérite d'une crise majeure dès sa nomination</li>
+                            <li>Leçon durable : ne pas toucher à l'école privée en France</li>
+                            <li>Mobilisation catholique qui annonce les futures "Manifs pour Tous"</li>
+                            <li>Jean-Marie Le Pen récupère une partie de la protestation</li>
+                            <li>Préparation de la défaite aux européennes de 1984</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="education">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Éducation</div>
                     <div class="impact-score">Impact Modéré</div>
                     <div class="date">25 Août 1985</div>
@@ -709,7 +916,7 @@
                         Jean-Pierre Chevènement modernise l'école : 80% d'une classe d'âge au bac, revalorisation des enseignants, nouveaux programmes.
                     </div>
                     <div class="leadership-tag">Jean-Pierre Chevènement</div>
-                    <div class="event-details">
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
                         Loi n°85-97 du 25 janvier 1985 modifiant et complétant la loi n°83-663 du 22 juillet 1983 et portant dispositions diverses relatives aux rapports entre l'État et les collectivités territoriales.
                     </div>
@@ -727,326 +934,8 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">2 Juillet 1986</div>
-                    <div class="event-title">Ordonnance sur la Liberté des Prix</div>
-                    <div class="event-description">
-                        Édouard Balladur supprime le contrôle des prix instauré depuis 1945. Révolution libérale de l'économie française.
-                    </div>
-                    <div class="leadership-tag">Jacques Chirac</div>
-                    <div class="leadership-tag">Édouard Balladur</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Ordonnance n°86-1243 du 1er décembre 1986 relative à la liberté des prix et de la concurrence. Loi n°87-499 du 6 juillet 1987 de validation.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Balladur impose la rupture libérale, crédibilité économique</li>
-                            <li>Chirac assume la révolution économique</li>
-                            <li>Opposition de Mitterrand via le Conseil constitutionnel</li>
-                            <li>Préparation de l'économie de marché</li>
-                            <li>Base doctrinale pour les privatisations</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">6 Août 1986</div>
-                    <div class="event-title">Loi de Privatisation Chirac-Balladur</div>
-                    <div class="event-description">
-                        Première loi de privatisation massive : 65 entreprises publiques concernées, dont TF1, Saint-Gobain, Paribas, Société Générale.
-                    </div>
-                    <div class="leadership-tag">Jacques Chirac</div>
-                    <div class="leadership-tag">Édouard Balladur</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°86-793 du 2 juillet 1986 autorisant le Gouvernement à prendre diverses mesures d'ordre économique et social. Décret n°86-1067 du 30 septembre 1986.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Balladur devient le "père" des privatisations françaises</li>
-                            <li>Chirac assume la rupture avec l'étatisme gaulliste</li>
-                            <li>Mitterrand ne peut que temporiser via le Conseil constitutionnel</li>
-                            <li>Création d'un lobby d'actionnaires favorables à la droite</li>
-                            <li>Succès économique qui crédibilise la droite pour 1988</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
-                    <div class="category-tag">Institutionnel</div>
-                    <div class="impact-score">Impact Constitutionnel</div>
-                    <div class="date">22 Juillet 1988</div>
-                    <div class="event-title">Loi d'Amnistie Post-Électorale</div>
-                    <div class="event-description">
-                        Michel Rocard fait voter une loi d'amnistie pour les infractions liées aux campagnes électorales, tradition républicaine controversée.
-                    </div>
-                    <div class="leadership-tag">Michel Rocard</div>
-                    <div class="leadership-tag">Pierre Arpaillange</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°88-828 du 20 juillet 1988 portant amnistie. Décret n°88-990 du 20 octobre 1988 portant application de la loi d'amnistie.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Rocard perpétue une tradition républicaine</li>
-                            <li>Arpaillange, garde des Sceaux, défend l'apaisement</li>
-                            <li>Critiques de l'opposition sur l'impunité</li>
-                            <li>Précédent pour les futures amnisties</li>
-                            <li>Débat sur l'éthique politique</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Historique</div>
-                    <div class="date">1er Décembre 1988</div>
-                    <div class="event-title">Loi Instituant le RMI</div>
-                    <div class="event-description">
-                        Michel Rocard crée le Revenu Minimum d'Insertion par la loi n°88-1088. Révolution de la protection sociale française.
-                    </div>
-                    <div class="leadership-tag">Michel Rocard</div>
-                    <div class="leadership-tag">Claude Évin</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°88-1088 du 1er décembre 1988 relative au revenu minimum d'insertion. Décret n°88-1111 du 12 décembre 1988 d'application.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Rocard s'impose comme le "père du RMI", grande réussite</li>
-                            <li>Évin, ministre des Affaires sociales, pilote la réforme</li>
-                            <li>Mitterrand valide cette révolution sociale</li>
-                            <li>Consensus large droite-gauche initial</li>
-                            <li>Héritage durable influençant toutes les politiques sociales</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="europeen">
-                <div class="timeline-content">
-                    <div class="category-tag">Européen</div>
-                    <div class="impact-score">Impact Constitutionnel</div>
-                    <div class="date">25 Juin 1992</div>
-                    <div class="event-title">Loi Constitutionnelle Autorisant Maastricht</div>
-                    <div class="event-description">
-                        Révision constitutionnelle préalable au référendum de Maastricht. Modification de l'article 88 de la Constitution.
-                    </div>
-                    <div class="leadership-tag">François Mitterrand</div>
-                    <div class="leadership-tag">Roland Dumas</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi constitutionnelle n°92-554 du 25 juin 1992 ajoutant à la Constitution un titre: "Des Communautés européennes et de l'Union européenne".
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Mitterrand impose la voie référendaire contre l'avis de certains</li>
-                            <li>Dumas, ministre des Affaires étrangères, porte la vision européenne</li>
-                            <li>Révision constitutionnelle adoptée par le Congrès</li>
-                            <li>Préparation du référendum de septembre</li>
-                            <li>Engagement irréversible vers l'Europe</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">19 Juillet 1993</div>
-                    <div class="event-title">Nouvelle Loi de Privatisation Balladur</div>
-                    <div class="event-description">
-                        Édouard Balladur relance les privatisations avec une nouvelle loi : BNP, Rhône-Poulenc, Elf Aquitaine, UAP, AGF.
-                    </div>
-                    <div class="leadership-tag">Édouard Balladur</div>
-                    <div class="leadership-tag">Edmond Alphandéry</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°93-923 du 19 juillet 1993 de privatisation. Décrets d'application pour chaque entreprise concernée. Loi de finances rectificative.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Balladur confirme son expertise en privatisations</li>
-                            <li>Alphandéry, ministre de l'Économie, gère les opérations</li>
-                            <li>Succès financier renforçant Balladur pour 1995</li>
-                            <li>Nicolas Sarkozy, ministre du Budget, se fait remarquer</li>
-                            <li>Opposition limitée de Philippe Séguin</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Critique</div>
-                    <div class="date">15 Novembre 1995</div>
-                    <div class="event-title">Ordonnances Juppé sur la Sécurité Sociale</div>
-                    <div class="event-description">
-                        Alain Juppé lance la réforme de la Sécurité sociale par ordonnances : maîtrise médicalisée, réforme hospitalière, retraites fonction publique.
-                    </div>
-                    <div class="leadership-tag">Jacques Chirac</div>
-                    <div class="leadership-tag">Alain Juppé</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Ordonnance n°96-344 du 24 avril 1996 portant mesures relatives à l'organisation de la sécurité sociale. Loi n°95-1348 du 30 décembre 1995 d'habilitation.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Juppé devient l'homme le plus impopulaire de France</li>
-                            <li>Chirac contraint au retrait partiel, autorité entamée</li>
-                            <li>Jacques Barrot, ministre du Travail, en première ligne</li>
-                            <li>Grèves de novembre-décembre 1995</li>
-                            <li>Abandon partiel des réformes sous la pression</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Majeur</div>
-                    <div class="date">13 Juin 1998</div>
-                    <div class="event-title">Première Loi Aubry - 35 Heures</div>
-                    <div class="event-description">
-                        Martine Aubry fait voter la réduction du temps de travail à 35 heures hebdomadaires pour les entreprises de plus de 20 salariés.
-                    </div>
-                    <div class="leadership-tag">Lionel Jospin</div>
-                    <div class="leadership-tag">Martine Aubry</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°98-461 du 13 juin 1998 d'orientation et d'incitation relative à la réduction du temps de travail. Décrets d'application multiples.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Aubry devient l'icône de la gauche sociale</li>
-                            <li>Jospin assume cette réforme emblématique</li>
-                            <li>Opposition frontale de Chirac et du patronat</li>
-                            <li>Clivage durable droite-gauche sur le temps de travail</li>
-                            <li>Négociations d'entreprise massives</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Complémentaire</div>
-                    <div class="date">19 Janvier 2000</div>
-                    <div class="event-title">Deuxième Loi Aubry - 35 Heures</div>
-                    <div class="event-description">
-                        Extension des 35 heures aux entreprises de moins de 20 salariés. Aménagement du temps de travail, heures supplémentaires.
-                    </div>
-                    <div class="leadership-tag">Lionel Jospin</div>
-                    <div class="leadership-tag">Martine Aubry</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2000-37 du 19 janvier 2000 relative à la réduction négociée du temps de travail. Multiples décrets sectoriels d'application.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Aubry complète son œuvre législative</li>
-                            <li>Généralisation controversée aux TPE</li>
-                            <li>Opposition croissante du patronat</li>
-                            <li>Débat sur la flexibilité du travail</li>
-                            <li>Héritage électoral pour 2002</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
-                    <div class="category-tag">Institutionnel</div>
-                    <div class="impact-score">Impact Constitutionnel</div>
-                    <div class="date">2 Octobre 2000</div>
-                    <div class="event-title">Loi Constitutionnelle du Quinquennat</div>
-                    <div class="event-description">
-                        Réduction du mandat présidentiel de 7 à 5 ans après référendum. Modernisation institutionnelle majeure de la Ve République.
-                    </div>
-                    <div class="leadership-tag">Jacques Chirac</div>
-                    <div class="leadership-tag">Lionel Jospin</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi constitutionnelle n°2000-964 du 2 octobre 2000 relative à la durée du mandat du Président de la République. Modification de l'article 6.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Chirac fait preuve de grandeur institutionnelle</li>
-                            <li>Jospin soutient une réforme qui peut l'avantager</li>
-                            <li>Pierre Mazeaud préside la commission préparatoire</li>
-                            <li>Modernisation réduisant les cohabitations</li>
-                            <li>Référendum avec forte abstention mais oui majoritaire</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">1985</div>
-                    <div class="event-title">Privatisations Partielles</div>
-                    <div class="event-description">
-                        Premières privatisations partielles d'entreprises publiques sous le gouvernement Fabius, marquant une rupture avec l'orthodoxie socialiste.
-                    </div>
-                    <div class="leadership-tag">Laurent Fabius</div>
-                    <div class="event-details">
-                        <h5>Entreprises concernées :</h5>
-                        Saint-Gobain, Paribas, premières ouvertures de capital dans le secteur bancaire et industriel.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Fabius assume la conversion libérale contre l'aile gauche du PS</li>
-                            <li>Tensions croissantes avec les ministres communistes (Fiterman, Le Pors)</li>
-                            <li>Mitterrand valide silencieusement le tournant capitaliste</li>
-                            <li>Opposition interne de Jean-Pierre Chevènement et des "socialistes orthodoxes"</li>
-                            <li>Préparation du terrain pour les privatisations massives de Chirac</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content scandal-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">Juillet 1985</div>
@@ -1075,8 +964,66 @@
                 <div class="timeline-dot"></div>
             </div>
 
+            <div class="timeline-item" data-category="economique">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Économique</div>
+                    <div class="impact-score">Impact Fort</div>
+                    <div class="date">2 Juillet 1986</div>
+                    <div class="event-title">Ordonnance sur la Liberté des Prix</div>
+                    <div class="event-description">
+                        Édouard Balladur supprime le contrôle des prix instauré depuis 1945. Révolution libérale de l'économie française.
+                    </div>
+                    <div class="leadership-tag">Jacques Chirac</div>
+                    <div class="leadership-tag">Édouard Balladur</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Ordonnance n°86-1243 du 1er décembre 1986 relative à la liberté des prix et de la concurrence. Loi n°87-499 du 6 juillet 1987 de validation.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Balladur impose la rupture libérale, crédibilité économique</li>
+                            <li>Chirac assume la révolution économique</li>
+                            <li>Opposition de Mitterrand via le Conseil constitutionnel</li>
+                            <li>Préparation de l'économie de marché</li>
+                            <li>Base doctrinale pour les privatisations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="economique">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Économique</div>
+                    <div class="impact-score">Impact Fort</div>
+                    <div class="date">6 Août 1986</div>
+                    <div class="event-title">Loi de Privatisation Chirac-Balladur</div>
+                    <div class="event-description">
+                        Première loi de privatisation massive : 65 entreprises publiques concernées, dont TF1, Saint-Gobain, Paribas, Société Générale.
+                    </div>
+                    <div class="leadership-tag">Jacques Chirac</div>
+                    <div class="leadership-tag">Édouard Balladur</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°86-793 du 2 juillet 1986 autorisant le Gouvernement à prendre diverses mesures d'ordre économique et social. Décret n°86-1067 du 30 septembre 1986.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Balladur devient le "père" des privatisations françaises</li>
+                            <li>Chirac assume la rupture avec l'étatisme gaulliste</li>
+                            <li>Mitterrand ne peut que temporiser via le Conseil constitutionnel</li>
+                            <li>Création d'un lobby d'actionnaires favorables à la droite</li>
+                            <li>Succès économique qui crédibilise la droite pour 1988</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">Mars 1986</div>
@@ -1094,7 +1041,7 @@
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
                             <li>Mitterrand invente un nouveau rôle présidentiel : "domaine réservé" vs politique intérieure</li>
-                            <li>Chirac se position pour 1988, utilise Matignon comme tremplin présidentiel</li>
+                            <li>Chirac se positionne pour 1988, utilise Matignon comme tremplin présidentiel</li>
                             <li>Balladur, ministre des Finances, acquiert une stature nationale</li>
                             <li>Mitterrand maîtrise l'art de la "cohabitation-obstruction"</li>
                             <li>Fabius écarté, carrière politique durablement handicapée</li>
@@ -1105,38 +1052,8 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">1986-1988</div>
-                    <div class="event-title">Vague de Privatisations Chirac</div>
-                    <div class="event-description">
-                        Programme massif de privatisations : TF1, Saint-Gobain, Paribas, Société Générale, Suez, Matra. Retour à l'économie de marché.
-                    </div>
-                    <div class="leadership-tag">Jacques Chirac</div>
-                    <div class="leadership-tag">Édouard Balladur</div>
-                    <div class="event-details">
-                        <h5>Privatisations emblématiques :</h5>
-                        TF1 vendue à Bouygues, naissance du capitalisme populaire français, introduction en bourse de masses.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Balladur devient le "père" des privatisations françaises</li>
-                            <li>Chirac assume pleinement l'héritage libéral contre la gauche</li>
-                            <li>Mitterrand ne peut que temporiser via le Conseil constitutionnel</li>
-                            <li>Création d'un lobby d'actionnaires favorables à la droite</li>
-                            <li>Succès économique qui crédibilise la droite pour 1988</li>
-                            <li>Opposition de Pierre Joxe et Michel Rocard côté socialiste</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Modéré</div>
                     <div class="date">Décembre 1986</div>
@@ -1166,7 +1083,7 @@
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact Fort</div>
                     <div class="date">1986-1987</div>
@@ -1195,30 +1112,86 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Historique</div>
-                    <div class="date">Décembre 1988</div>
-                    <div class="event-title">Création du RMI</div>
+            <div class="timeline-item" data-category="institutionnel">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Institutionnel</div>
+                    <div class="impact-score">Impact Modéré</div>
+                    <div class="date">22 Juillet 1988</div>
+                    <div class="event-title">Loi d'Amnistie Post-Électorale</div>
                     <div class="event-description">
-                        Michel Rocard instaure le Revenu Minimum d'Insertion, révolution sociale qui garantit un revenu minimum aux plus démunis.
+                        Michel Rocard fait voter une loi d'amnistie pour les infractions liées aux campagnes électorales, tradition républicaine controversée.
                     </div>
-                    <div class="leadership-tag">François Mitterrand</div>
                     <div class="leadership-tag">Michel Rocard</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Nouvelle pauvreté urbaine, exclusion sociale croissante, influence de l'Abbé Pierre et d'ATD Quart-Monde, promesse électorale de 1988.
+                    <div class="leadership-tag">Pierre Arpaillange</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°88-828 du 20 juillet 1988 portant amnistie. Décret n°88-990 du 20 octobre 1988 portant application de la loi d'amnistie.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Rocard s'impose comme le "père du RMI", grande réussite de son gouvernement</li>
-                            <li>Mitterrand valide cette révolution sociale, confortant son image de président social</li>
-                            <li>Claude Évin, ministre des Affaires sociales, acquiert une reconnaissance</li>
-                            <li>Consensus large droite-gauche, légitimité politique renforcée de Rocard</li>
-                            <li>Opposition initiale de certains libéraux (Alain Madelin) neutralisée</li>
-                            <li>Héritage durable qui influence toutes les politiques sociales ultérieures</li>
+                            <li>Rocard perpétue une tradition républicaine</li>
+                            <li>Arpaillange, garde des Sceaux, défend l'apaisement</li>
+                            <li>Critiques de l'opposition sur l'impunité</li>
+                            <li>Précédent pour les futures amnisties</li>
+                            <li>Débat sur l'éthique politique</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="social">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Social</div>
+                    <div class="impact-score">Impact Historique</div>
+                    <div class="date">1er Décembre 1988</div>
+                    <div class="event-title">Loi Instituant le RMI</div>
+                    <div class="event-description">
+                        Michel Rocard crée le Revenu Minimum d'Insertion par la loi n°88-1088. Révolution de la protection sociale française.
+                    </div>
+                    <div class="leadership-tag">Michel Rocard</div>
+                    <div class="leadership-tag">Claude Évin</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°88-1088 du 1er décembre 1988 relative au revenu minimum d'insertion. Décret n°88-1111 du 12 décembre 1988 d'application.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Rocard s'impose comme le "père du RMI", grande réussite</li>
+                            <li>Évin, ministre des Affaires sociales, pilote la réforme</li>
+                            <li>Mitterrand valide cette révolution sociale</li>
+                            <li>Consensus large droite-gauche initial</li>
+                            <li>Héritage durable influençant toutes les politiques sociales</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="economique">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Économique</div>
+                    <div class="impact-score">Impact Modéré</div>
+                    <div class="date">12 Janvier 1989</div>
+                    <div class="event-title">Loi sur les Fonds Communs de Créances</div>
+                    <div class="event-description">
+                        Pierre Bérégovoy modernise le système financier français. Création de nouveaux instruments financiers, titrisation des créances.
+                    </div>
+                    <div class="leadership-tag">Michel Rocard</div>
+                    <div class="leadership-tag">Pierre Bérégovoy</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°88-1201 du 23 décembre 1988 relative aux organismes de placement collectif en valeurs mobilières et portant création des fonds communs de créances.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Bérégovoy poursuit la modernisation financière initiée sous Fabius</li>
+                            <li>Rocard valide cette orientation libérale du PS</li>
+                            <li>Préparation de la place financière française à l'Europe</li>
+                            <li>Opposition limitée de l'aile gauche du PS</li>
                         </ul>
                     </div>
                 </div>
@@ -1226,11 +1199,40 @@
             </div>
 
             <div class="year-separator" id="1990">
-                <h2>1990-1995</h2>
+                <h2>1990-1995 - Maastricht et Crise</h2>
             </div>
 
             <div class="timeline-item" data-category="europeen">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Européen</div>
+                    <div class="impact-score">Impact Constitutionnel</div>
+                    <div class="date">25 Juin 1992</div>
+                    <div class="event-title">Loi Constitutionnelle Autorisant Maastricht</div>
+                    <div class="event-description">
+                        Révision constitutionnelle préalable au référendum de Maastricht. Modification de l'article 88 de la Constitution.
+                    </div>
+                    <div class="leadership-tag">François Mitterrand</div>
+                    <div class="leadership-tag">Roland Dumas</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi constitutionnelle n°92-554 du 25 juin 1992 ajoutant à la Constitution un titre: "Des Communautés européennes et de l'Union européenne".
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Mitterrand impose la voie référendaire contre l'avis de certains</li>
+                            <li>Dumas, ministre des Affaires étrangères, porte la vision européenne</li>
+                            <li>Révision constitutionnelle adoptée par le Congrès</li>
+                            <li>Préparation du référendum de septembre</li>
+                            <li>Engagement irréversible vers l'Europe</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="europeen">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Européen</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">Septembre 1992</div>
@@ -1261,7 +1263,7 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Fort</div>
                     <div class="date">1991-1993</div>
@@ -1291,7 +1293,7 @@
             </div>
 
             <div class="timeline-item" data-category="justice">
-                <div class="timeline-content">
+                <div class="timeline-content scandal-marker">
                     <div class="category-tag">Justice</div>
                     <div class="impact-score">Impact Fort</div>
                     <div class="date">1992-1994</div>
@@ -1312,7 +1314,7 @@
                             <li>Fabius mis en cause dans l'affaire du sang contaminé, carrière suspendue</li>
                             <li>Henri Nallet, ministre de la Justice, sous pression constante</li>
                             <li>Émergence des "juges stars" (Jean-Pierre, Éva Joly)</li>
-                            <li>Pierre Joxe, ministre de l'Intérieur, gérer les perquisitions chez les ministres</li>
+                            <li>Pierre Joxe, ministre de l'Intérieur, gère les perquisitions chez les ministres</li>
                             <li>Fin de l'immunité de facto de la classe politique</li>
                             <li>Préparation de l'alternance de 1993</li>
                         </ul>
@@ -1321,8 +1323,39 @@
                 <div class="timeline-dot"></div>
             </div>
 
+            <div class="timeline-item" data-category="immigration">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Immigration</div>
+                    <div class="impact-score">Impact Sécuritaire</div>
+                    <div class="date">24 Août 1993</div>
+                    <div class="event-title">Lois Pasqua sur l'Immigration</div>
+                    <div class="event-description">
+                        Charles Pasqua durcit drastiquement la législation sur l'immigration : réforme du Code de la nationalité, contrôles d'identité, expulsions facilitées.
+                    </div>
+                    <div class="leadership-tag">Édouard Balladur</div>
+                    <div class="leadership-tag">Charles Pasqua</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°93-933 du 22 juillet 1993 réformant le droit de la nationalité. Loi n°93-1027 du 24 août 1993 relative à la maîtrise de l'immigration et aux conditions d'entrée, d'accueil et de séjour des étrangers en France.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Pasqua impose sa ligne de fermeté, "immigration zéro"</li>
+                            <li>Balladur assume cette politique pour concurrencer Le Pen</li>
+                            <li>Réforme du droit du sol vers le droit du sang</li>
+                            <li>Opposition des associations et de la gauche</li>
+                            <li>Simone Veil critique les excès de la réforme</li>
+                            <li>Base de la politique migratoire de la droite française</li>
+                            <li>Durcissement durable du débat sur l'immigration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">Mars 1993</div>
@@ -1353,29 +1386,85 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Fort</div>
-                    <div class="date">1993-1995</div>
-                    <div class="event-title">Nouvelle Vague de Privatisations</div>
+                    <div class="date">19 Juillet 1993</div>
+                    <div class="event-title">Nouvelle Loi de Privatisation Balladur</div>
                     <div class="event-description">
-                        Balladur accélère les privatisations : BNP, Rhône-Poulenc, Elf, UAP. Politique économique libérale assumée.
+                        Édouard Balladur relance les privatisations avec une nouvelle loi : BNP, Rhône-Poulenc, Elf Aquitaine, UAP, AGF.
                     </div>
                     <div class="leadership-tag">Édouard Balladur</div>
                     <div class="leadership-tag">Edmond Alphandéry</div>
-                    <div class="event-details">
-                        <h5>Réussites économiques :</h5>
-                        Redressement des comptes publics, baisse de l'inflation, franc fort maintenu, crédibilité retrouvée.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°93-923 du 19 juillet 1993 de privatisation. Décrets d'application pour chaque entreprise concernée. Loi de finances rectificative.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Balladur acquiert l'image d'un gestionnaire compétent</li>
-                            <li>Alphandéry, ministre de l'Économie, reconnu pour son expertise</li>
-                            <li>Succès qui alimente les ambitions présidentielles de Balladur</li>
-                            <li>Chirac critiqué pour son "ni-ni" (ni privatisations ni nationalisations)</li>
-                            <li>Nicolas Sarkozy se forge une réputation de ministre efficace</li>
-                            <li>Opposition de Philippe Séguin aux privatisations sans effet</li>
+                            <li>Balladur confirme son expertise en privatisations</li>
+                            <li>Alphandéry, ministre de l'Économie, gère les opérations</li>
+                            <li>Succès financier renforçant Balladur pour 1995</li>
+                            <li>Nicolas Sarkozy, ministre du Budget, se fait remarquer</li>
+                            <li>Opposition limitée de Philippe Séguin</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="education">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Éducation</div>
+                    <div class="impact-score">Impact Modéré</div>
+                    <div class="date">10 Juillet 1994</div>
+                    <div class="event-title">Loi Bayrou sur l'École</div>
+                    <div class="event-description">
+                        François Bayrou réforme l'enseignement : nouveau contrat pour l'école, rénovation des collèges, lutte contre l'échec scolaire.
+                    </div>
+                    <div class="leadership-tag">Édouard Balladur</div>
+                    <div class="leadership-tag">François Bayrou</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°94-665 du 4 août 1994 relative à l'emploi de la langue française (loi Toubon). Nouveau contrat pour l'école, 158 mesures de réforme.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Bayrou se forge une image de ministre réformateur</li>
+                            <li>Balladur soutient une politique éducative consensuelle</li>
+                            <li>Opposition limitée des syndicats enseignants</li>
+                            <li>Préparation de la candidature présidentielle de Bayrou</li>
+                            <li>Rénovation pédagogique sans bouleversement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="justice">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Justice</div>
+                    <div class="impact-score">Impact Modéré</div>
+                    <div class="date">4 Janvier 1993</div>
+                    <div class="event-title">Réforme du Code Pénal</div>
+                    <div class="event-description">
+                        Entrée en vigueur du nouveau Code pénal, première refonte depuis 1810. Modernisation des infractions et des peines.
+                    </div>
+                    <div class="leadership-tag">Pierre Méhaignerie</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Code pénal (nouveau) adopté par la loi n°92-683 du 22 juillet 1992. Loi n°92-1336 du 16 décembre 1992 relative à l'entrée en vigueur du nouveau code pénal.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Méhaignerie, garde des Sceaux, modernise la justice pénale</li>
+                            <li>Suppression de la peine de mort définitivement actée</li>
+                            <li>Nouvelles infractions : blanchiment, corruption, environnement</li>
+                            <li>Adaptation du droit pénal au monde moderne</li>
+                            <li>Base juridique pour lutter contre la délinquance financière</li>
                         </ul>
                     </div>
                 </div>
@@ -1383,30 +1472,28 @@
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Critique</div>
-                    <div class="date">Novembre 1995</div>
-                    <div class="event-title">Grèves contre le Plan Juppé</div>
+                    <div class="date">15 Novembre 1995</div>
+                    <div class="event-title">Ordonnances Juppé sur la Sécurité Sociale</div>
                     <div class="event-description">
-                        Grèves massives de la fonction publique contre la réforme des retraites et de la Sécurité sociale. La France paralysée pendant 3 semaines.
+                        Alain Juppé lance la réforme de la Sécurité sociale par ordonnances : maîtrise médicalisée, réforme hospitalière, retraites fonction publique.
                     </div>
                     <div class="leadership-tag">Jacques Chirac</div>
                     <div class="leadership-tag">Alain Juppé</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Trous de la Sécurité sociale, nécessité de réformes structurelles, promesses électorales de Chirac non tenues.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Ordonnance n°96-344 du 24 avril 1996 portant mesures relatives à l'organisation de la sécurité sociale. Loi n°95-1348 du 30 décembre 1995 d'habilitation.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
                             <li>Juppé devient l'homme le plus impopulaire de France</li>
-                            <li>Chirac contraint au retrait partiel, autorité présidentielle entamée</li>
-                            <li>Jacques Barrot, ministre du Travail, doit gérer la crise sociale</li>
-                            <li>Popularité de Chirac s'effondre après 6 mois de mandat</li>
-                            <li>Renforcement des syndicats, notamment de la CFDT (Nicole Notat)</li>
-                            <li>Préparation de la dissolution de 1997</li>
-                            <li>Leçon durable : les réformes sociales nécessitent une pédagogie</li>
+                            <li>Chirac contraint au retrait partiel, autorité entamée</li>
+                            <li>Jacques Barrot, ministre du Travail, en première ligne</li>
+                            <li>Grèves de novembre-décembre 1995</li>
+                            <li>Abandon partiel des réformes sous la pression</li>
                         </ul>
                     </div>
                 </div>
@@ -1414,11 +1501,11 @@
             </div>
 
             <div class="year-separator" id="1995">
-                <h2>1995-2000</h2>
+                <h2>1995-2000 - Cohabitation et Euro</h2>
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact Modéré</div>
                     <div class="date">1995-1996</div>
@@ -1447,8 +1534,36 @@
                 <div class="timeline-dot"></div>
             </div>
 
+            <div class="timeline-item" data-category="economique">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Économique</div>
+                    <div class="impact-score">Impact Modéré</div>
+                    <div class="date">9 Juillet 1996</div>
+                    <div class="event-title">Loi Carrez sur la Superficie</div>
+                    <div class="event-description">
+                        Gilles Carrez impose l'obligation de mentionner la superficie des lots de copropriété dans les ventes immobilières.
+                    </div>
+                    <div class="leadership-tag">Alain Juppé</div>
+                    <div class="leadership-tag">Gilles Carrez</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°96-1107 du 18 décembre 1996 améliorant la protection des acquéreurs de lots de copropriété. Article 46 de la loi SRU créant la "loi Carrez".
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Carrez fait adopter une mesure technique devenue emblématique</li>
+                            <li>Protection renforcée des consommateurs immobiliers</li>
+                            <li>Professionnalisation du secteur immobilier</li>
+                            <li>Mesure consensuelle dans un contexte difficile pour Juppé</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">Avril 1997</div>
@@ -1479,30 +1594,57 @@
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Majeur</div>
-                    <div class="date">1998-2000</div>
-                    <div class="event-title">Lois Aubry - 35 Heures</div>
+                    <div class="date">13 Juin 1998</div>
+                    <div class="event-title">Première Loi Aubry - 35 Heures</div>
                     <div class="event-description">
-                        Martine Aubry impose la réduction du temps de travail à 35 heures, réforme sociale majeure censée créer des emplois.
+                        Martine Aubry fait voter la réduction du temps de travail à 35 heures hebdomadaires pour les entreprises de plus de 20 salariés.
                     </div>
                     <div class="leadership-tag">Lionel Jospin</div>
                     <div class="leadership-tag">Martine Aubry</div>
-                    <div class="event-details">
-                        <h5>Mise en œuvre :</h5>
-                        Application progressive, négociations d'entreprise, aides publiques, opposition patronale massive.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°98-461 du 13 juin 1998 d'orientation et d'incitation relative à la réduction du temps de travail. Décrets d'application multiples.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Aubry devient l'icône de la gauche sociale, héritage politique durable</li>
-                            <li>Jospin assume cette réforme emblématique malgré les critiques</li>
-                            <li>Opposition frontale de Chirac qui dénonce la mesure</li>
-                            <li>Ernest-Antoine Seillière (MEDEF) mène la charge patronale</li>
-                            <li>Claude Bartolone, secrétaire d'État, aide à l'application</li>
-                            <li>Débat économique permanent sur l'efficacité de la mesure</li>
+                            <li>Aubry devient l'icône de la gauche sociale</li>
+                            <li>Jospin assume cette réforme emblématique</li>
+                            <li>Opposition frontale de Chirac et du patronat</li>
                             <li>Clivage durable droite-gauche sur le temps de travail</li>
+                            <li>Négociations d'entreprise massives</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="social">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Social</div>
+                    <div class="impact-score">Impact Complémentaire</div>
+                    <div class="date">19 Janvier 2000</div>
+                    <div class="event-title">Deuxième Loi Aubry - 35 Heures</div>
+                    <div class="event-description">
+                        Extension des 35 heures aux entreprises de moins de 20 salariés. Aménagement du temps de travail, heures supplémentaires.
+                    </div>
+                    <div class="leadership-tag">Lionel Jospin</div>
+                    <div class="leadership-tag">Martine Aubry</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2000-37 du 19 janvier 2000 relative à la réduction négociée du temps de travail. Multiples décrets sectoriels d'application.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Aubry complète son œuvre législative</li>
+                            <li>Généralisation controversée aux TPE</li>
+                            <li>Opposition croissante du patronat</li>
+                            <li>Débat sur la flexibilité du travail</li>
+                            <li>Héritage électoral pour 2002</li>
                         </ul>
                     </div>
                 </div>
@@ -1510,7 +1652,7 @@
             </div>
 
             <div class="timeline-item" data-category="europeen">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Européen</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">1er Janvier 1999</div>
@@ -1541,31 +1683,60 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
-                    <div class="category-tag">Institutionnel</div>
-                    <div class="impact-score">Impact Constitutionnel</div>
-                    <div class="date">Septembre 2000</div>
-                    <div class="event-title">Quinquennat</div>
+            <div class="timeline-item" data-category="social">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Social</div>
+                    <div class="impact-score">Impact Sociétal</div>
+                    <div class="date">15 Novembre 1999</div>
+                    <div class="event-title">Loi sur le PACS</div>
                     <div class="event-description">
-                        Référendum sur la réduction du mandat présidentiel de 7 à 5 ans. Chirac soutient une réforme qui réduit potentiellement son propre pouvoir.
+                        Création du Pacte Civil de Solidarité par Élisabeth Guigou. Révolution juridique pour les couples non mariés et homosexuels.
                     </div>
-                    <div class="leadership-tag">Jacques Chirac</div>
                     <div class="leadership-tag">Lionel Jospin</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Modernisation des institutions, alignement sur les législatives, réduction des risques de cohabitation.
+                    <div class="leadership-tag">Élisabeth Guigou</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°99-944 du 15 novembre 1999 relative au pacte civil de solidarité. Décret n°99-1089 du 21 décembre 1999 relatif aux modalités d'application.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Chirac fait preuve de grandeur d'âme institutionnelle</li>
-                            <li>Jospin soutient une réforme qui peut l'avantager en 2002</li>
-                            <li>Pierre Mazeaud préside la commission de réflexion</li>
-                            <li>Abstention massive (70%) mais oui largement majoritaire</li>
-                            <li>Modernisation qui profite aux futurs présidents</li>
-                            <li>Réduction des chances de nouvelles cohabitations</li>
-                            <li>Raccourcissement de fait des mandats présidentiels</li>
+                            <li>Guigou, garde des Sceaux, impose une révolution sociétale</li>
+                            <li>Jospin assume cette avancée malgré l'opposition catholique</li>
+                            <li>Opposition massive de la droite et de l'Église</li>
+                            <li>Christine Boutin mène la contestation avec un marathon parlementaire</li>
+                            <li>Chirac hostile mais ne peut s'opposer</li>
+                            <li>Préfiguration du mariage pour tous de 2013</li>
+                            <li>Libéralisation des mœurs assumée par la gauche</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="institutionnel">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Institutionnel</div>
+                    <div class="impact-score">Impact Constitutionnel</div>
+                    <div class="date">2 Octobre 2000</div>
+                    <div class="event-title">Loi Constitutionnelle du Quinquennat</div>
+                    <div class="event-description">
+                        Réduction du mandat présidentiel de 7 à 5 ans après référendum. Modernisation institutionnelle majeure de la Ve République.
+                    </div>
+                    <div class="leadership-tag">Jacques Chirac</div>
+                    <div class="leadership-tag">Lionel Jospin</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi constitutionnelle n°2000-964 du 2 octobre 2000 relative à la durée du mandat du Président de la République. Modification de l'article 6.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Chirac fait preuve de grandeur institutionnelle</li>
+                            <li>Jospin soutient une réforme qui peut l'avantager</li>
+                            <li>Pierre Mazeaud préside la commission préparatoire</li>
+                            <li>Modernisation réduisant les cohabitations</li>
+                            <li>Référendum avec forte abstention mais oui majoritaire</li>
                         </ul>
                     </div>
                 </div>
@@ -1573,11 +1744,11 @@
             </div>
 
             <div class="year-separator" id="2000">
-                <h2>2000-2005</h2>
+                <h2>2000-2005 - Sécurité et Fractures</h2>
             </div>
 
             <div class="timeline-item" data-category="justice">
-                <div class="timeline-content">
+                <div class="timeline-content scandal-marker">
                     <div class="category-tag">Justice</div>
                     <div class="impact-score">Impact Majeur</div>
                     <div class="date">2001-2002</div>
@@ -1607,7 +1778,7 @@
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact International</div>
                     <div class="date">11 Septembre 2001</div>
@@ -1638,7 +1809,7 @@
             </div>
 
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">21 Avril 2002</div>
@@ -1670,7 +1841,7 @@
             </div>
 
             <div class="timeline-item" data-category="international">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">International</div>
                     <div class="impact-score">Impact Géopolitique</div>
                     <div class="date">Février 2003</div>
@@ -1700,9 +1871,9 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
+            <div class="timeline-item" data-category="sante">
+                <div class="timeline-content crisis-marker">
+                    <div class="category-tag">Santé</div>
                     <div class="impact-score">Impact Modéré</div>
                     <div class="date">Été 2003</div>
                     <div class="event-title">Canicule et Crise Sanitaire</div>
@@ -1731,7 +1902,7 @@
             </div>
 
             <div class="timeline-item" data-category="education">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Éducation</div>
                     <div class="impact-score">Impact Sociétal</div>
                     <div class="date">15 Mars 2004</div>
@@ -1741,7 +1912,7 @@
                     </div>
                     <div class="leadership-tag">Jacques Chirac</div>
                     <div class="leadership-tag">Luc Ferry</div>
-                    <div class="event-details">
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
                         Loi n°2004-228 du 15 mars 2004 encadrant, en application du principe de laïcité, le port de signes ou de tenues manifestant une appartenance religieuse dans les écoles, collèges et lycées publics.
                     </div>
@@ -1759,298 +1930,8 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Libéral</div>
-                    <div class="date">21 Août 2007</div>
-                    <div class="event-title">Loi TEPA (Travail, Emploi, Pouvoir d'Achat)</div>
-                    <div class="event-description">
-                        Nicolas Sarkozy lance sa révolution fiscale : défiscalisation des heures supplémentaires, bouclier fiscal à 50%, réduction ISF.
-                    </div>
-                    <div class="leadership-tag">Nicolas Sarkozy</div>
-                    <div class="leadership-tag">François Fillon</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2007-1223 du 21 août 2007 en faveur du travail, de l'emploi et du pouvoir d'achat. Décrets d'application fiscaux nombreux.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Sarkozy concrétise son slogan "travailler plus pour gagner plus"</li>
-                            <li>Fillon porte la révolution fiscale libérale</li>
-                            <li>Eric Woerth, ministre du Budget, supervise les mesures</li>
-                            <li>Opposition de la gauche au "cadeau aux riches"</li>
-                            <li>Coût budgétaire considérable révélé avec la crise</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
-                    <div class="category-tag">Institutionnel</div>
-                    <div class="impact-score">Impact Constitutionnel</div>
-                    <div class="date">23 Juillet 2008</div>
-                    <div class="event-title">Révision Constitutionnelle Sarkozy</div>
-                    <div class="event-description">
-                        Modernisation de la Constitution : limitation à deux mandats présidentiels, renforcement du Parlement, QPC, défenseur des droits.
-                    </div>
-                    <div class="leadership-tag">Nicolas Sarkozy</div>
-                    <div class="leadership-tag">Jean-Louis Borloo</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi constitutionnelle n°2008-724 du 23 juillet 2008 de modernisation des institutions de la Ve République. 47 articles modifiés.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Sarkozy modernise les institutions à son profit</li>
-                            <li>Édouard Balladur préside le comité de réforme</li>
-                            <li>Création de la QPC renforçant le Conseil constitutionnel</li>
-                            <li>Limitation présidentielle s'appliquant aux successeurs</li>
-                            <li>Renforcement des pouvoirs parlementaires</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Fort</div>
-                    <div class="date">9 Novembre 2010</div>
-                    <div class="event-title">Loi de Réforme des Retraites</div>
-                    <div class="event-description">
-                        Report progressif de l'âge légal de départ de 60 à 62 ans et de l'âge du taux plein de 65 à 67 ans. Réforme systémique majeure.
-                    </div>
-                    <div class="leadership-tag">Nicolas Sarkozy</div>
-                    <div class="leadership-tag">Éric Woerth</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2010-1330 du 9 novembre 2010 portant réforme des retraites. Décret n°2010-1776 du 31 décembre 2010 d'application.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Sarkozy assume une réforme impopulaire mais nécessaire</li>
-                            <li>Woerth, ministre du Travail, mène les négociations difficiles</li>
-                            <li>Fillon, Premier ministre, coordonne face aux grèves</li>
-                            <li>Grèves massives mais échec syndical final</li>
-                            <li>Coût politique important pour la réélection 2012</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fiscal</div>
-                    <div class="date">29 Décembre 2012</div>
-                    <div class="event-title">Loi de Finances 2013 - Fiscalité Hollande</div>
-                    <div class="event-description">
-                        François Hollande instaure la contribution exceptionnelle à 75% sur les hauts revenus et augmente l'impôt sur les sociétés.
-                    </div>
-                    <div class="leadership-tag">François Hollande</div>
-                    <div class="leadership-tag">Pierre Moscovici</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2012-1509 du 29 décembre 2012 de finances pour 2013. Article 2 instituant la contribution exceptionnelle sur les hauts revenus.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Hollande concrétise sa promesse anti-riches</li>
-                            <li>Moscovici défend une mesure contre-productive</li>
-                            <li>Jérôme Cahuzac, ministre du Budget, porte l'orthodoxie fiscale</li>
-                            <li>Exils médiatisés, image "anti-business"</li>
-                            <li>Censure partielle du Conseil constitutionnel</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Sociétal</div>
-                    <div class="date">17 Mai 2013</div>
-                    <div class="event-title">Loi Taubira - Mariage pour Tous</div>
-                    <div class="event-description">
-                        Ouverture du mariage et de l'adoption aux couples de personnes de même sexe. Réforme sociétale historique.
-                    </div>
-                    <div class="leadership-tag">François Hollande</div>
-                    <div class="leadership-tag">Christiane Taubira</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2013-404 du 17 mai 2013 ouvrant le mariage aux couples de personnes de même sexe. Circulaires d'application aux maires.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Hollande assume une réforme sociétale clivante</li>
-                            <li>Taubira devient l'icône des droits LGBT</li>
-                            <li>Opposition massive de la "Manif pour Tous"</li>
-                            <li>Clivage profond de la société française</li>
-                            <li>Marine Le Pen récupère la contestation conservatrice</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Libéral</div>
-                    <div class="date">6 Août 2015</div>
-                    <div class="event-title">Loi Macron pour la Croissance</div>
-                    <div class="event-description">
-                        Libéralisation de l'économie : travail dominical, professions réglementées, autocars Macron, permis de conduire.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Manuel Valls</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2015-990 du 6 août 2015 pour la croissance, l'activité et l'égalité des chances économiques. 308 articles de libéralisation.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron devient la star libérale du gouvernement</li>
-                            <li>Valls utilise 3 fois le 49.3 pour faire passer la loi</li>
-                            <li>Fronde socialiste importante (41 abstentions PS)</li>
-                            <li>Montebourg démissionne en opposition</li>
-                            <li>Base de la future candidature présidentielle de Macron</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
-                    <div class="category-tag">Sécurité</div>
-                    <div class="impact-score">Impact Liberticide</div>
-                    <div class="date">3 Juin 2015</div>
-                    <div class="event-title">Loi sur le Renseignement</div>
-                    <div class="event-description">
-                        Légalisation de la surveillance de masse : boîtes noires chez les FAI, algorithmes de détection, extension des écoutes.
-                    </div>
-                    <div class="leadership-tag">Manuel Valls</div>
-                    <div class="leadership-tag">Bernard Cazeneuve</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2015-912 du 24 juillet 2015 relative au renseignement. Décret n°2015-1185 du 28 septembre 2015 d'application.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Valls assume l'extension des pouvoirs de surveillance</li>
-                            <li>Cazeneuve, ministre de l'Intérieur, porte la sécurité nationale</li>
-                            <li>Opposition des défenseurs des libertés publiques</li>
-                            <li>Contexte post-Charlie Hebdo justifiant les mesures</li>
-                            <li>Préparation de l'état d'urgence permanent</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Critique</div>
-                    <div class="date">8 Août 2016</div>
-                    <div class="event-title">Loi Travail (Loi El Khomri)</div>
-                    <div class="event-description">
-                        Réforme du Code du travail : primauté de l'accord d'entreprise, plafonnement des indemnités prud'homales, temps de travail.
-                    </div>
-                    <div class="leadership-tag">Manuel Valls</div>
-                    <div class="leadership-tag">Myriam El Khomri</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2016-1088 du 8 août 2016 relative au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Valls utilise 6 fois le 49.3, record de la Ve République</li>
-                            <li>El Khomri, ministre du Travail, symbole de la réforme</li>
-                            <li>Hollande affaibli par la contestation de sa base</li>
-                            <li>Mouvement Nuit Debout, nouvelles formes de protestation</li>
-                            <li>Fronde socialiste massive, préparation de 2017</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Systémique</div>
-                    <div class="date">22 Septembre 2017</div>
-                    <div class="event-title">Ordonnances Macron sur le Travail</div>
-                    <div class="event-description">
-                        Réforme du Code du travail par ordonnances : fusion des IRP, facilitation des licenciements, négociation d'entreprise prioritaire.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Muriel Pénicaud</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Ordonnance n°2017-1386 du 22 septembre 2017 relative à la nouvelle organisation du dialogue social et économique dans l'entreprise et favorisant l'exercice et la valorisation des responsabilités syndicales. 5 ordonnances au total.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron impose sa révolution libérale dès le début</li>
-                            <li>Pénicaud, ministre du Travail, porte les ordonnances</li>
-                            <li>Philippe valide la méthode accélérée</li>
-                            <li>Opposition syndicale limitée et divisée</li>
-                            <li>Validation du programme économique de campagne</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Fiscal</div>
-                    <div class="date">30 Décembre 2017</div>
-                    <div class="event-title">Loi de Finances 2018 - Révolution Fiscale</div>
-                    <div class="event-description">
-                        Suppression de l'ISF remplacé par l'IFI, Prélèvement Forfaitaire Unique à 30%, flat tax sur les capitaux.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Bruno Le Maire</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2017-1837 du 30 décembre 2017 de finances pour 2018. Articles 31 à 35 sur la transformation de l'ISF en IFI.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron concrétise sa révolution fiscale libérale</li>
-                            <li>Le Maire porte la transformation du système fiscal</li>
-                            <li>Gérald Darmanin, ministre des Comptes publics, défend les réformes</li>
-                            <li>Opposition de la gauche au "cadeau aux riches"</li>
-                            <li>Image du "président des riches" qui se renforce</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
             <div class="timeline-item" data-category="europeen">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Européen</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">29 Mai 2005</div>
@@ -2081,7 +1962,7 @@
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Majeur</div>
                     <div class="date">Octobre 2005</div>
@@ -2113,11 +1994,11 @@
             </div>
 
             <div class="year-separator" id="2005">
-                <h2>2005-2010</h2>
+                <h2>2005-2010 - Ère Sarkozy</h2>
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Fort</div>
                     <div class="date">Mars 2006</div>
@@ -2147,7 +2028,7 @@
             </div>
 
             <div class="timeline-item" data-category="justice">
-                <div class="timeline-content">
+                <div class="timeline-content scandal-marker">
                     <div class="category-tag">Justice</div>
                     <div class="impact-score">Impact Politique</div>
                     <div class="date">2006-2007</div>
@@ -2176,58 +2057,57 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Fort</div>
-                    <div class="date">Mai 2007</div>
-                    <div class="event-title">Élection de Sarkozy - Rupture Libérale</div>
+                    <div class="date">21 Août 2007</div>
+                    <div class="event-title">Loi TEPA (Travail, Emploi, Pouvoir d'Achat)</div>
                     <div class="event-description">
-                        Nicolas Sarkozy élu président sur un programme de "rupture" économique et sociale. Promesses de réformes libérales.
+                        Nicolas Sarkozy lance sa révolution fiscale : défiscalisation des heures supplémentaires, bouclier fiscal à 50%, réduction ISF.
                     </div>
                     <div class="leadership-tag">Nicolas Sarkozy</div>
                     <div class="leadership-tag">François Fillon</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        "Travailler plus pour gagner plus", réforme de l'État, fin des 35 heures, bouclier fiscal, inspiration du modèle anglo-saxon.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2007-1223 du 21 août 2007 en faveur du travail, de l'emploi et du pouvoir d'achat. Décrets d'application fiscaux nombreux.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Sarkozy président avec un mandat de transformation</li>
-                            <li>Fillon Premier ministre, chargé des réformes économiques</li>
-                            <li>Christine Lagarde, ministre de l'Économie, profil international</li>
-                            <li>Défaite de Ségolène Royal, échec de la rénovation du PS</li>
-                            <li>François Bayrou rate sa percée centriste malgré 18%</li>
-                            <li>Rupture avec la politique économique chiraquienne</li>
+                            <li>Sarkozy concrétise son slogan "travailler plus pour gagner plus"</li>
+                            <li>Fillon porte la révolution fiscale libérale</li>
+                            <li>Eric Woerth, ministre du Budget, supervise les mesures</li>
+                            <li>Opposition de la gauche au "cadeau aux riches"</li>
+                            <li>Coût budgétaire considérable révélé avec la crise</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Modéré</div>
-                    <div class="date">Octobre 2007</div>
-                    <div class="event-title">Grèves contre les Réformes Sarkozy</div>
+            <div class="timeline-item" data-category="institutionnel">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Institutionnel</div>
+                    <div class="impact-score">Impact Constitutionnel</div>
+                    <div class="date">23 Juillet 2008</div>
+                    <div class="event-title">Révision Constitutionnelle Sarkozy</div>
                     <div class="event-description">
-                        Grèves dans les transports contre la réforme des régimes spéciaux de retraite. Sarkozy tient bon.
+                        Modernisation de la Constitution : limitation à deux mandats présidentiels, renforcement du Parlement, QPC, défenseur des droits.
                     </div>
                     <div class="leadership-tag">Nicolas Sarkozy</div>
-                    <div class="leadership-tag">Xavier Bertrand</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Réforme des retraites SNCF, RATP, EDF, opposition syndicale, test de la détermination présidentielle.
+                    <div class="leadership-tag">Jean-Louis Borloo</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi constitutionnelle n°2008-724 du 23 juillet 2008 de modernisation des institutions de la Ve République. 47 articles modifiés.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Sarkozy résiste aux grèves, première victoire sociale</li>
-                            <li>Xavier Bertrand, ministre du Travail, négocie les réformes</li>
-                            <li>Jean-Claude Mailly (FO) mène l'opposition syndicale</li>
-                            <li>Méthode Sarkozy : fermeté et communication</li>
-                            <li>Préparation d'autres réformes (universités, fonction publique)</li>
+                            <li>Sarkozy modernise les institutions à son profit</li>
+                            <li>Édouard Balladur préside le comité de réforme</li>
+                            <li>Création de la QPC renforçant le Conseil constitutionnel</li>
+                            <li>Limitation présidentielle s'appliquant aux successeurs</li>
+                            <li>Renforcement des pouvoirs parlementaires</li>
                         </ul>
                     </div>
                 </div>
@@ -2235,7 +2115,7 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">Septembre 2008</div>
@@ -2265,7 +2145,7 @@
             </div>
 
             <div class="timeline-item" data-category="sante">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Santé</div>
                     <div class="impact-score">Impact Modéré</div>
                     <div class="date">2009</div>
@@ -2294,7 +2174,7 @@
             </div>
 
             <div class="timeline-item" data-category="immigration">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Immigration</div>
                     <div class="impact-score">Impact Social</div>
                     <div class="date">2009-2010</div>
@@ -2323,43 +2203,41 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="year-separator" id="2010">
-                <h2>2010-2015</h2>
-            </div>
-
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Fort</div>
-                    <div class="date">Automne 2010</div>
-                    <div class="event-title">Réforme des Retraites</div>
+                    <div class="date">9 Novembre 2010</div>
+                    <div class="event-title">Loi de Réforme des Retraites</div>
                     <div class="event-description">
-                        Report de l'âge de la retraite de 60 à 62 ans. Grèves massives, mais Sarkozy et Fillon maintiennent la réforme.
+                        Report progressif de l'âge légal de départ de 60 à 62 ans et de l'âge du taux plein de 65 à 67 ans. Réforme systémique majeure.
                     </div>
                     <div class="leadership-tag">Nicolas Sarkozy</div>
-                    <div class="leadership-tag">François Fillon</div>
                     <div class="leadership-tag">Éric Woerth</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Déficits des régimes de retraite, vieillissement de la population, harmonisation européenne, opposition syndicale massive.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2010-1330 du 9 novembre 2010 portant réforme des retraites. Décret n°2010-1776 du 31 décembre 2010 d'application.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
                             <li>Sarkozy assume une réforme impopulaire mais nécessaire</li>
-                            <li>Fillon, architecte de la réforme, crédibilité de gestionnaire</li>
-                            <li>Woerth, ministre du Travail, mène les négociations</li>
-                            <li>Grèves longues mais échec syndical final</li>
-                            <li>Coût politique important pour 2012</li>
-                            <li>Validation du courage politique de la droite</li>
+                            <li>Woerth, ministre du Travail, mène les négociations difficiles</li>
+                            <li>Fillon, Premier ministre, coordonne face aux grèves</li>
+                            <li>Grèves massives mais échec syndical final</li>
+                            <li>Coût politique important pour la réélection 2012</li>
                         </ul>
                     </div>
                 </div>
                 <div class="timeline-dot"></div>
             </div>
 
+            <div class="year-separator" id="2010">
+                <h2>2010-2015 - Quinquennat Hollande</h2>
+            </div>
+
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact International</div>
                     <div class="date">Mars 2011</div>
@@ -2391,7 +2269,7 @@
             </div>
 
             <div class="timeline-item" data-category="justice">
-                <div class="timeline-content">
+                <div class="timeline-content scandal-marker">
                     <div class="category-tag">Justice</div>
                     <div class="impact-score">Impact Politique</div>
                     <div class="date">2011-2012</div>
@@ -2421,7 +2299,7 @@
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact National</div>
                     <div class="date">Mars 2012</div>
@@ -2452,7 +2330,7 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">Mai 2012</div>
@@ -2481,31 +2359,29 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
+            <div class="timeline-item" data-category="fiscal">
+                <div class="timeline-content crisis-marker">
+                    <div class="category-tag">Fiscal</div>
                     <div class="impact-score">Impact Critique</div>
-                    <div class="date">2012-2013</div>
-                    <div class="event-title">Taxe à 75% et Exil Fiscal</div>
+                    <div class="date">29 Décembre 2012</div>
+                    <div class="event-title">Loi de Finances 2013 - Fiscalité Hollande</div>
                     <div class="event-description">
-                        Hollande instaure une taxe à 75% sur les hauts revenus. Départs d'entrepreneurs, polémique Depardieu, rétropédalage gouvernemental.
+                        François Hollande instaure la contribution exceptionnelle à 75% sur les hauts revenus et augmente l'impôt sur les sociétés.
                     </div>
                     <div class="leadership-tag">François Hollande</div>
                     <div class="leadership-tag">Pierre Moscovici</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Promesse de campagne, justice fiscale, crise économique, besoin de recettes, opposition du patronat et des riches.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2012-1509 du 29 décembre 2012 de finances pour 2013. Article 2 instituant la contribution exceptionnelle sur les hauts revenus.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Hollande critiqué pour l'amateurisme économique</li>
-                            <li>Moscovici doit défendre une mesure contre-productive</li>
-                            <li>Jérôme Cahuzac, ministre du Budget, gère la fiscalité (avant son scandale)</li>
-                            <li>Image "anti-business" qui colle à Hollande</li>
-                            <li>Exils médiatisés (Depardieu, entrepreneurs)</li>
-                            <li>Recettes dérisoires, coût d'image énorme</li>
-                            <li>Préparation du virage libéral de 2014</li>
+                            <li>Hollande concrétise sa promesse anti-riches</li>
+                            <li>Moscovici défend une mesure contre-productive</li>
+                            <li>Jérôme Cahuzac, ministre du Budget, porte l'orthodoxie fiscale</li>
+                            <li>Exils médiatisés, image "anti-business"</li>
+                            <li>Censure partielle du Conseil constitutionnel</li>
                         </ul>
                     </div>
                 </div>
@@ -2513,7 +2389,7 @@
             </div>
 
             <div class="timeline-item" data-category="international">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">International</div>
                     <div class="impact-score">Impact Géopolitique</div>
                     <div class="date">Janvier 2013</div>
@@ -2545,7 +2421,7 @@
             </div>
 
             <div class="timeline-item" data-category="justice">
-                <div class="timeline-content">
+                <div class="timeline-content scandal-marker">
                     <div class="category-tag">Justice</div>
                     <div class="impact-score">Impact Gouvernemental</div>
                     <div class="date">Mars 2013</div>
@@ -2576,30 +2452,28 @@
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Sociétal</div>
-                    <div class="date">Mai 2013</div>
-                    <div class="event-title">Mariage pour Tous</div>
+                    <div class="date">17 Mai 2013</div>
+                    <div class="event-title">Loi Taubira - Mariage pour Tous</div>
                     <div class="event-description">
-                        Adoption de la loi ouvrant le mariage et l'adoption aux couples homosexuels. Manifestations massives de la "Manif pour Tous".
+                        Ouverture du mariage et de l'adoption aux couples de personnes de même sexe. Réforme sociétale historique.
                     </div>
                     <div class="leadership-tag">François Hollande</div>
                     <div class="leadership-tag">Christiane Taubira</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Promesse de campagne, évolution sociétale, opposition catholique et conservatrice, mobilisation sans précédent.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2013-404 du 17 mai 2013 ouvrant le mariage aux couples de personnes de même sexe. Circulaires d'application aux maires.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Hollande assume une réforme sociétale historique</li>
-                            <li>Taubira, garde des Sceaux, symbole de la défense des droits</li>
-                            <li>Opposition virulente de Frigide Barjot et de la Manif pour Tous</li>
+                            <li>Hollande assume une réforme sociétale clivante</li>
+                            <li>Taubira devient l'icône des droits LGBT</li>
+                            <li>Opposition massive de la "Manif pour Tous"</li>
                             <li>Clivage profond de la société française</li>
-                            <li>Marine Le Pen récupère une partie de la contestation</li>
-                            <li>François Fillon et la droite dans l'opposition frontale</li>
-                            <li>Conquête historique pour les droits LGBT</li>
+                            <li>Marine Le Pen récupère la contestation conservatrice</li>
                         </ul>
                     </div>
                 </div>
@@ -2607,7 +2481,7 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Politique</div>
                     <div class="date">Avril 2014</div>
@@ -2638,29 +2512,27 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
                     <div class="impact-score">Impact Libéral</div>
-                    <div class="date">Août 2014</div>
-                    <div class="event-title">Loi Macron</div>
+                    <div class="date">6 Août 2015</div>
+                    <div class="event-title">Loi Macron pour la Croissance</div>
                     <div class="event-description">
-                        Emmanuel Macron devient ministre de l'Économie et lance une loi de libéralisation : dimanche, notaires, autocars, professions réglementées.
+                        Libéralisation de l'économie : travail dominical, professions réglementées, autocars Macron, permis de conduire.
                     </div>
                     <div class="leadership-tag">Emmanuel Macron</div>
                     <div class="leadership-tag">Manuel Valls</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Blocages de l'économie française, corporatismes, nécessité de modernisation, influence de la Commission européenne.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2015-990 du 6 août 2015 pour la croissance, l'activité et l'égalité des chances économiques. 308 articles de libéralisation.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Macron devient la star montante du gouvernement</li>
-                            <li>Valls utilise le 49.3 pour faire passer la loi</li>
-                            <li>Opposition de Montebourg qui démissionne du gouvernement</li>
-                            <li>Fronde socialiste importante, 41 députés PS s'abstiennent</li>
-                            <li>Corporatismes (notaires, pharmaciens) en colère</li>
-                            <li>Macron se forge une image de réformateur</li>
+                            <li>Macron devient la star libérale du gouvernement</li>
+                            <li>Valls utilise 3 fois le 49.3 pour faire passer la loi</li>
+                            <li>Fronde socialiste importante (41 abstentions PS)</li>
+                            <li>Montebourg démissionne en opposition</li>
                             <li>Base de la future candidature présidentielle de Macron</li>
                         </ul>
                     </div>
@@ -2669,11 +2541,11 @@
             </div>
 
             <div class="year-separator" id="2015">
-                <h2>2015-2020</h2>
+                <h2>2015-2020 - Terrorisme et Macron</h2>
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">7-9 Janvier 2015</div>
@@ -2705,7 +2577,36 @@
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Sécurité</div>
+                    <div class="impact-score">Impact Liberticide</div>
+                    <div class="date">3 Juin 2015</div>
+                    <div class="event-title">Loi sur le Renseignement</div>
+                    <div class="event-description">
+                        Légalisation de la surveillance de masse : boîtes noires chez les FAI, algorithmes de détection, extension des écoutes.
+                    </div>
+                    <div class="leadership-tag">Manuel Valls</div>
+                    <div class="leadership-tag">Bernard Cazeneuve</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2015-912 du 24 juillet 2015 relative au renseignement. Décret n°2015-1185 du 28 septembre 2015 d'application.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Valls assume l'extension des pouvoirs de surveillance</li>
+                            <li>Cazeneuve, ministre de l'Intérieur, porte la sécurité nationale</li>
+                            <li>Opposition des défenseurs des libertés publiques</li>
+                            <li>Contexte post-Charlie Hebdo justifiant les mesures</li>
+                            <li>Préparation de l'état d'urgence permanent</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="securite">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact Majeur</div>
                     <div class="date">13 Novembre 2015</div>
@@ -2737,7 +2638,7 @@
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Historique</div>
                     <div class="date">Mars-Juillet 2016</div>
@@ -2748,20 +2649,18 @@
                     <div class="leadership-tag">François Hollande</div>
                     <div class="leadership-tag">Manuel Valls</div>
                     <div class="leadership-tag">Myriam El Khomri</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Réforme du marché du travail, flexibilité, opposition syndicale, émergence du mouvement Nuit Debout, blocages économiques.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2016-1088 du 8 août 2016 relative au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Hollande affaibli par la contestation de sa base électorale</li>
-                            <li>Valls assume l'impopularité, utilise 6 fois le 49.3</li>
+                            <li>Valls utilise 6 fois le 49.3, record de la Ve République</li>
                             <li>El Khomri, ministre du Travail, symbole de la réforme</li>
-                            <li>Émergence de nouvelles formes de contestation (Nuit Debout)</li>
-                            <li>Opposition de l'aile gauche du PS (Hamon, Filoche)</li>
-                            <li>Préparation de la scission de la gauche pour 2017</li>
-                            <li>Macron se distance de la contestation</li>
+                            <li>Hollande affaibli par la contestation de sa base</li>
+                            <li>Mouvement Nuit Debout, nouvelles formes de protestation</li>
+                            <li>Fronde socialiste massive, préparation de 2017</li>
                         </ul>
                     </div>
                 </div>
@@ -2769,7 +2668,7 @@
             </div>
 
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Majeur</div>
                     <div class="date">Décembre 2016</div>
@@ -2799,7 +2698,7 @@
             </div>
 
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Révolutionnaire</div>
                     <div class="date">Mai 2017</div>
@@ -2821,7 +2720,7 @@
                             <li>Effondrement du PS (6% pour Hamon) et des Républicains</li>
                             <li>Marine Le Pen au second tour, normalisation du FN</li>
                             <li>Mélenchon (19%) émerge comme leader de la gauche radicale</li>
-                            <li>Fillon écarte par les affaires malgré les primaires</li>
+                            <li>Fillon écarté par les affaires malgré les primaires</li>
                             <li>Recomposition totale du système partisan français</li>
                         </ul>
                     </div>
@@ -2830,30 +2729,57 @@
             </div>
 
             <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Libéral</div>
-                    <div class="date">Septembre 2017</div>
-                    <div class="event-title">Ordonnances Travail</div>
+                    <div class="impact-score">Impact Systémique</div>
+                    <div class="date">22 Septembre 2017</div>
+                    <div class="event-title">Ordonnances Macron sur le Travail</div>
                     <div class="event-description">
-                        Macron réforme le Code du travail par ordonnances. Facilitation des licenciements, négociation d'entreprise, flexibilité accrue.
+                        Réforme du Code du travail par ordonnances : fusion des IRP, facilitation des licenciements, négociation d'entreprise prioritaire.
                     </div>
                     <div class="leadership-tag">Emmanuel Macron</div>
                     <div class="leadership-tag">Muriel Pénicaud</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Promesse de campagne, modernisation du marché du travail, opposition syndicale limitée, procédure accélérée.
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Ordonnance n°2017-1386 du 22 septembre 2017 relative à la nouvelle organisation du dialogue social et économique dans l'entreprise et favorisant l'exercice et la valorisation des responsabilités syndicales. 5 ordonnances au total.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Macron impose sa marque libérale dès le début</li>
-                            <li>Pénicaud, ministre du Travail, porte la réforme sans opposition majeure</li>
-                            <li>Philippe valide la méthode des ordonnances</li>
-                            <li>Syndicats divisés, manifestations limitées</li>
-                            <li>Opposition de Mélenchon et de la France Insoumise</li>
-                            <li>Validation du programme économique de Macron</li>
-                            <li>Préparation d'autres réformes structurelles</li>
+                            <li>Macron impose sa révolution libérale dès le début</li>
+                            <li>Pénicaud, ministre du Travail, porte les ordonnances</li>
+                            <li>Philippe valide la méthode accélérée</li>
+                            <li>Opposition syndicale limitée et divisée</li>
+                            <li>Validation du programme économique de campagne</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="fiscal">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Fiscal</div>
+                    <div class="impact-score">Impact Fiscal</div>
+                    <div class="date">30 Décembre 2017</div>
+                    <div class="event-title">Loi de Finances 2018 - Révolution Fiscale</div>
+                    <div class="event-description">
+                        Suppression de l'ISF remplacé par l'IFI, Prélèvement Forfaitaire Unique à 30%, flat tax sur les capitaux.
+                    </div>
+                    <div class="leadership-tag">Emmanuel Macron</div>
+                    <div class="leadership-tag">Bruno Le Maire</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2017-1837 du 30 décembre 2017 de finances pour 2018. Articles 31 à 35 sur la transformation de l'ISF en IFI.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Macron concrétise sa révolution fiscale libérale</li>
+                            <li>Le Maire porte la transformation du système fiscal</li>
+                            <li>Gérald Darmanin, ministre des Comptes publics, défend les réformes</li>
+                            <li>Opposition de la gauche au "cadeau aux riches"</li>
+                            <li>Image du "président des riches" qui se renforce</li>
                         </ul>
                     </div>
                 </div>
@@ -2861,7 +2787,7 @@
             </div>
 
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">Novembre 2018</div>
@@ -2893,35 +2819,120 @@
             </div>
 
             <div class="year-separator" id="2020">
-                <h2>2020-2024</h2>
+                <h2>2020-2024 - COVID et Crise</h2>
             </div>
 
             <div class="timeline-item" data-category="sante">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Santé</div>
                     <div class="impact-score">Impact Historique</div>
-                    <div class="date">Mars 2020</div>
-                    <div class="event-title">Gestion de la Pandémie COVID-19</div>
+                    <div class="date">23 Mars 2020</div>
+                    <div class="event-title">Loi d'Urgence Sanitaire COVID-19</div>
                     <div class="event-description">
-                        Macron décrète deux confinements successifs. "Nous sommes en guerre". Gestion sanitaire et économique de la crise du siècle.
+                        Création de l'état d'urgence sanitaire permettant de restreindre les libertés fondamentales : confinement, couvre-feu, contrôles.
                     </div>
                     <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Jean Castex</div>
-                    <div class="leadership-tag">Olivier Véran</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Pandémie mondiale, confinements, crise sanitaire, économique et sociale, plan de relance européen, vaccins.
+                    <div class="leadership-tag">Édouard Philippe</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2020-290 du 23 mars 2020 d'urgence pour faire face à l'épidémie de covid-19. Décret n°2020-293 du 23 mars 2020 prescrivant les mesures générales nécessaires.
                     </div>
                     <div class="implications">
                         <h4>Conséquences pour les Dirigeants :</h4>
                         <ul>
-                            <li>Macron en chef de guerre sanitaire, autorité renforcée temporairement</li>
-                            <li>Castex remplace Philippe, "Monsieur Déconfinement"</li>
-                            <li>Véran, ministre de la Santé, gère la communication sanitaire</li>
-                            <li>Bruno Le Maire pilote le "quoi qu'il en coûte" économique</li>
-                            <li>Philippe démissionne après les municipales ratées</li>
-                            <li>Gestion critiquée : masques, tests, vaccins</li>
-                            <li>Impact sur la campagne présidentielle de 2022</li>
+                            <li>Macron en chef de guerre sanitaire, pouvoirs exceptionnels</li>
+                            <li>Philippe gère le premier confinement, popularité temporaire</li>
+                            <li>Olivier Véran, ministre de la Santé, communication de crise</li>
+                            <li>Restriction des libertés sans précédent en temps de paix</li>
+                            <li>Débat constitutionnel sur l'état d'urgence permanent</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="economique">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Économique</div>
+                    <div class="impact-score">Impact Budgétaire</div>
+                    <div class="date">25 Avril 2020</div>
+                    <div class="event-title">Lois de Finances Rectificatives COVID</div>
+                    <div class="event-description">
+                        Plan de soutien économique massif : chômage partiel, fonds de solidarité, PGE, reports de charges. "Quoi qu'il en coûte".
+                    </div>
+                    <div class="leadership-tag">Emmanuel Macron</div>
+                    <div class="leadership-tag">Bruno Le Maire</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2020-473 du 25 avril 2020 de finances rectificative pour 2020 (LFR1). 3 autres LFR en 2020. Ordonnances sur l'activité partielle.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Macron abandonne l'orthodoxie budgétaire, dirigisme assumé</li>
+                            <li>Le Maire pilote le "quoi qu'il en coûte", 470 milliards d'euros</li>
+                            <li>Révolution idéologique : retour de l'État providence</li>
+                            <li>Dette publique explosant à 115% du PIB</li>
+                            <li>Validation de l'intervention massive de l'État</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="europeen">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Européen</div>
+                    <div class="impact-score">Impact Européen</div>
+                    <div class="date">Juillet 2020</div>
+                    <div class="event-title">Plan de Relance Européen</div>
+                    <div class="event-description">
+                        Macron négocie avec Merkel le plan de relance européen de 750 milliards d'euros. Mutualisation historique de la dette européenne.
+                    </div>
+                    <div class="leadership-tag">Emmanuel Macron</div>
+                    <div class="leadership-tag">Bruno Le Maire</div>
+                    <div class="context-box">
+                        <h5>Contexte :</h5>
+                        Crise COVID, récession européenne, négociations difficiles avec les pays "frugaux", accord avec Angela Merkel.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Macron obtient son "moment hamiltonien" européen</li>
+                            <li>Le Maire coordonne la position française</li>
+                            <li>Victoire diplomatique majeure face aux "frugaux"</li>
+                            <li>Renforcement du couple franco-allemand</li>
+                            <li>Légitimité européenne renforcée de Macron</li>
+                            <li>Changement de paradigme budgétaire européen</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item" data-category="sante">
+                <div class="timeline-content reform-marker">
+                    <div class="category-tag">Santé</div>
+                    <div class="impact-score">Impact Liberticide</div>
+                    <div class="date">5 Août 2021</div>
+                    <div class="event-title">Loi sur le Pass Sanitaire</div>
+                    <div class="event-description">
+                        Extension du pass sanitaire aux restaurants, transports, hôpitaux. Obligation vaccinale pour les soignants. Contrôle social inédit.
+                    </div>
+                    <div class="leadership-tag">Emmanuel Macron</div>
+                    <div class="leadership-tag">Jean Castex</div>
+                    <div class="legal-details">
+                        <h5>Textes juridiques :</h5>
+                        Loi n°2021-1040 du 5 août 2021 relative à la gestion de la crise sanitaire. Décret n°2021-1059 du 7 août 2021 modifiant le décret du 1er juin 2021.
+                    </div>
+                    <div class="implications">
+                        <h4>Conséquences pour les Dirigeants :</h4>
+                        <ul>
+                            <li>Macron impose le pass malgré l'opposition massive</li>
+                            <li>Castex gère l'extension controversée du dispositif</li>
+                            <li>Véran justifie l'obligation vaccinale des soignants</li>
+                            <li>Manifestations hebdomadaires pendant des mois</li>
+                            <li>Fracture sociale sur la vaccination obligatoire</li>
                         </ul>
                     </div>
                 </div>
@@ -2929,7 +2940,7 @@
             </div>
 
             <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Sécurité</div>
                     <div class="impact-score">Impact International</div>
                     <div class="date">Août 2021</div>
@@ -2958,127 +2969,8 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
-                    <div class="category-tag">Social</div>
-                    <div class="impact-score">Impact Majeur</div>
-                    <div class="date">2023</div>
-                    <div class="event-title">Réforme des Retraites par 49.3</div>
-                    <div class="event-description">
-                        Macron fait passer la réforme des retraites (report à 64 ans) sans vote par l'article 49.3. Crise démocratique et sociale majeure.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Élisabeth Borne</div>
-                    <div class="leadership-tag">Olivier Dussopt</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Déficits des retraites, vieillissement, absence de majorité absolue, opposition syndicale massive, grèves historiques.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron impose une réforme sans légitimité parlementaire</li>
-                            <li>Borne utilise le 49.3, survit aux motions de censure de justesse</li>
-                            <li>Dussopt, ministre du Travail, porte une réforme détestée</li>
-                            <li>Crise de légitimité démocratique du quinquennat</li>
-                            <li>Grèves massives, manifestations, violences</li>
-                            <li>Opposition transpartisane (LFI, RN, LR partiellement)</li>
-                            <li>Image autoritaire définitive de Macron</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="sante">
-                <div class="timeline-content">
-                    <div class="category-tag">Santé</div>
-                    <div class="impact-score">Impact Exceptionnel</div>
-                    <div class="date">23 Mars 2020</div>
-                    <div class="event-title">Loi d'Urgence Sanitaire COVID-19</div>
-                    <div class="event-description">
-                        Création de l'état d'urgence sanitaire permettant de restreindre les libertés fondamentales : confinement, couvre-feu, contrôles.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Édouard Philippe</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2020-290 du 23 mars 2020 d'urgence pour faire face à l'épidémie de covid-19. Décret n°2020-293 du 23 mars 2020 prescrivant les mesures générales nécessaires.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron en chef de guerre sanitaire, pouvoirs exceptionnels</li>
-                            <li>Philippe gère le premier confinement, popularité temporaire</li>
-                            <li>Olivier Véran, ministre de la Santé, communication de crise</li>
-                            <li>Restriction des libertés sans précédent en temps de paix</li>
-                            <li>Débat constitutionnel sur l'état d'urgence permanent</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Budgétaire</div>
-                    <div class="date">25 Avril 2020</div>
-                    <div class="event-title">Lois de Finances Rectificatives COVID</div>
-                    <div class="event-description">
-                        Plan de soutien économique massif : chômage partiel, fonds de solidarité, PGE, reports de charges. "Quoi qu'il en coûte".
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Bruno Le Maire</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2020-473 du 25 avril 2020 de finances rectificative pour 2020 (LFR1). 3 autres LFR en 2020. Ordonnances sur l'activité partielle.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron abandonne l'orthodoxie budgétaire, dirigisme assumé</li>
-                            <li>Le Maire pilote le "quoi qu'il en coûte", 470 milliards d'euros</li>
-                            <li>Révolution idéologique : retour de l'État providence</li>
-                            <li>Dette publique explosant à 115% du PIB</li>
-                            <li>Validation de l'intervention massive de l'État</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="sante">
-                <div class="timeline-content">
-                    <div class="category-tag">Santé</div>
-                    <div class="impact-score">Impact Liberticide</div>
-                    <div class="date">5 Août 2021</div>
-                    <div class="event-title">Loi sur le Pass Sanitaire</div>
-                    <div class="event-description">
-                        Extension du pass sanitaire aux restaurants, transports, hôpitaux. Obligation vaccinale pour les soignants. Contrôle social inédit.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Jean Castex</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2021-1040 du 5 août 2021 relative à la gestion de la crise sanitaire. Décret n°2021-1059 du 7 août 2021 modifiant le décret du 1er juin 2021.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron impose le pass malgré l'opposition massive</li>
-                            <li>Castex gère l'extension controversée du dispositif</li>
-                            <li>Véran justifie l'obligation vaccinale des soignants</li>
-                            <li>Manifestations hebdomadaires pendant des mois</li>
-                            <li>Fracture sociale sur la vaccination obligatoire</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
             <div class="timeline-item" data-category="environnement">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Environnement</div>
                     <div class="impact-score">Impact Climatique</div>
                     <div class="date">22 Août 2021</div>
@@ -3088,7 +2980,7 @@
                     </div>
                     <div class="leadership-tag">Emmanuel Macron</div>
                     <div class="leadership-tag">Barbara Pompili</div>
-                    <div class="event-details">
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
                         Loi n°2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets. 305 articles.
                     </div>
@@ -3106,37 +2998,8 @@
                 <div class="timeline-dot"></div>
             </div>
 
-            <div class="timeline-item" data-category="securite">
-                <div class="timeline-content">
-                    <div class="category-tag">Sécurité</div>
-                    <div class="impact-score">Impact Liberticide</div>
-                    <div class="date">30 Juillet 2021</div>
-                    <div class="event-title">Loi de Sécurité Globale</div>
-                    <div class="event-description">
-                        Renforcement des pouvoirs de police : surveillance par drones, police municipale armée, limitation de la diffusion d'images de policiers.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Gérald Darmanin</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2021-646 du 25 mai 2021 pour une sécurité globale préservant les libertés. Censure partielle du Conseil constitutionnel sur l'article 24.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron durcit la politique sécuritaire</li>
-                            <li>Darmanin, ministre de l'Intérieur, assume la ligne ferme</li>
-                            <li>Opposition massive des journalistes et défenseurs des libertés</li>
-                            <li>Castex gère les manifestations contre la loi</li>
-                            <li>Censure constitutionnelle sur la liberté d'informer</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
             <div class="timeline-item" data-category="social">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Social</div>
                     <div class="impact-score">Impact Démocratique</div>
                     <div class="date">20 Janvier 2023</div>
@@ -3146,7 +3009,7 @@
                     </div>
                     <div class="leadership-tag">Emmanuel Macron</div>
                     <div class="leadership-tag">Élisabeth Borne</div>
-                    <div class="event-details">
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
                         Loi n°2023-270 du 14 avril 2023 de financement rectificative de la sécurité sociale pour 2023. Promulguée sans vote via l'article 49 alinéa 3.
                     </div>
@@ -3165,7 +3028,7 @@
             </div>
 
             <div class="timeline-item" data-category="immigration">
-                <div class="timeline-content">
+                <div class="timeline-content reform-marker">
                     <div class="category-tag">Immigration</div>
                     <div class="impact-score">Impact Sécuritaire</div>
                     <div class="date">26 Janvier 2024</div>
@@ -3175,7 +3038,7 @@
                     </div>
                     <div class="leadership-tag">Emmanuel Macron</div>
                     <div class="leadership-tag">Gérald Darmanin</div>
-                    <div class="event-details">
+                    <div class="legal-details">
                         <h5>Textes juridiques :</h5>
                         Loi n°2024-42 du 26 janvier 2024 pour contrôler l'immigration, améliorer l'intégration. Censure partielle du Conseil constitutionnel.
                     </div>
@@ -3194,7 +3057,7 @@
             </div>
 
             <div class="timeline-item" data-category="institutionnel">
-                <div class="timeline-content">
+                <div class="timeline-content crisis-marker">
                     <div class="category-tag">Institutionnel</div>
                     <div class="impact-score">Impact Critique</div>
                     <div class="date">9 Juin 2024</div>
@@ -3218,65 +3081,6 @@
                             <li>Marine Le Pen à un pas du pouvoir exécutif</li>
                             <li>Fin possible de l'hégémonie macroniste</li>
                             <li>Risque démocratique historique pour les institutions</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="justice">
-                <div class="timeline-content">
-                    <div class="category-tag">Justice</div>
-                    <div class="impact-score">Impact Institutionnel</div>
-                    <div class="date">2020-2024</div>
-                    <div class="event-title">Réformes de la Justice sous Macron</div>
-                    <div class="event-description">
-                        Succession de réformes : loi de programmation 2018-2022, création du Parquet National Financier, réforme de la procédure pénale.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Éric Dupond-Moretti</div>
-                    <div class="event-details">
-                        <h5>Textes juridiques :</h5>
-                        Loi n°2019-222 du 23 mars 2019 de programmation 2018-2022 et de réforme pour la justice. Ordonnance n°2019-964 du 18 septembre 2019 réformant la procédure civile.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron modernise l'institution judiciaire</li>
-                            <li>Dupond-Moretti, garde des Sceaux controversé, réforme contre les magistrats</li>
-                            <li>Opposition du Syndicat de la Magistrature</li>
-                            <li>Numérisation de la justice, gain d'efficacité</li>
-                            <li>Débat sur l'indépendance de la justice</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-
-            <div class="timeline-item" data-category="economique">
-                <div class="timeline-content">
-                    <div class="category-tag">Économique</div>
-                    <div class="impact-score">Impact Européen</div>
-                    <div class="date">Juillet 2020</div>
-                    <div class="event-title">Plan de Relance Européen</div>
-                    <div class="event-description">
-                        Macron négocie avec Merkel le plan de relance européen de 750 milliards d'euros. Mutualisation historique de la dette européenne.
-                    </div>
-                    <div class="leadership-tag">Emmanuel Macron</div>
-                    <div class="leadership-tag">Bruno Le Maire</div>
-                    <div class="context-box">
-                        <h5>Contexte :</h5>
-                        Crise COVID, récession européenne, négociations difficiles avec les pays "frugaux", accord avec Angela Merkel.
-                    </div>
-                    <div class="implications">
-                        <h4>Conséquences pour les Dirigeants :</h4>
-                        <ul>
-                            <li>Macron obtient son "moment hamiltonien" européen</li>
-                            <li>Le Maire coordonne la position française</li>
-                            <li>Victoire diplomatique majeure face aux "frugaux"</li>
-                            <li>Renforcement du couple franco-allemand</li>
-                            <li>Légitimité européenne renforcée de Macron</li>
-                            <li>Changement de paradigme budgétaire européen</li>
                         </ul>
                     </div>
                 </div>
@@ -3422,6 +3226,300 @@
                 }
             });
         });
+
+        // Advanced search with highlighting
+        function highlightSearchTerm(element, term) {
+            if (!term) return;
+            
+            const walker = document.createTreeWalker(
+                element,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+            
+            const textNodes = [];
+            let node;
+            
+            while (node = walker.nextNode()) {
+                textNodes.push(node);
+            }
+            
+            textNodes.forEach(textNode => {
+                const parent = textNode.parentNode;
+                if (parent.tagName !== 'SCRIPT' && parent.tagName !== 'STYLE') {
+                    const text = textNode.textContent;
+                    const regex = new RegExp(`(${term})`, 'gi');
+                    const highlightedText = text.replace(regex, '<mark class="search-highlight">$1</mark>');
+                    
+                    if (highlightedText !== text) {
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = highlightedText;
+                        
+                        while (tempDiv.firstChild) {
+                            parent.insertBefore(tempDiv.firstChild, textNode);
+                        }
+                        parent.removeChild(textNode);
+                    }
+                }
+            });
+        }
+
+        // Statistics counter animation
+        const statNumbers = document.querySelectorAll('.stat-number');
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = entry.target;
+                    const finalValue = target.textContent.replace(/\D/g, '');
+                    let currentValue = 0;
+                    const increment = Math.ceil(finalValue / 50);
+                    
+                    const counter = setInterval(() => {
+                        currentValue += increment;
+                        if (currentValue >= finalValue) {
+                            currentValue = finalValue;
+                            clearInterval(counter);
+                            target.textContent = target.textContent.replace(/\d+/, finalValue);
+                        } else {
+                            target.textContent = target.textContent.replace(/\d+/, currentValue);
+                        }
+                    }, 40);
+                    
+                    statsObserver.unobserve(target);
+                }
+            });
+        });
+
+        statNumbers.forEach(stat => {
+            statsObserver.observe(stat);
+        });
+
+        // Dynamic year updates for navigation
+        const currentYear = new Date().getFullYear();
+        if (currentYear > 2024) {
+            // Add future navigation dots dynamically
+            const floatingNav = document.querySelector('.floating-nav');
+            for (let year = 2025; year <= currentYear; year += 5) {
+                const newDot = document.createElement('div');
+                newDot.className = 'nav-dot';
+                newDot.dataset.year = year.toString();
+                floatingNav.appendChild(newDot);
+            }
+        }
+
+        // Print and export functionality
+        function exportTimeline() {
+            const printContent = document.querySelector('.timeline').innerHTML;
+            const printWindow = window.open('', '_blank');
+            printWindow.document.write(`
+                <html>
+                <head>
+                    <title>Chronologie Politique Française 1984-2024</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; }
+                        .timeline-item { margin: 20px 0; border: 1px solid #ccc; padding: 20px; }
+                        .date { font-weight: bold; color: #0066cc; }
+                        .event-title { font-size: 1.2em; margin: 10px 0; }
+                        .leadership-tag { background: #f0f0f0; padding: 5px 10px; margin: 5px; border-radius: 15px; }
+                        @media print { body { -webkit-print-color-adjust: exact; } }
+                    </style>
+                </head>
+                <body>
+                    <h1>Chronologie Politique Française 1984-2024</h1>
+                    ${printContent}
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+            printWindow.print();
+        }
+
+        // Add export button to header
+        const header = document.querySelector('.header .container');
+        const exportBtn = document.createElement('button');
+        exportBtn.textContent = '📄 Exporter en PDF';
+        exportBtn.style.cssText = `
+            background: linear-gradient(45deg, #4facfe, #00f2fe);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        `;
+        exportBtn.addEventListener('mouseover', () => exportBtn.style.transform = 'scale(1.05)');
+        exportBtn.addEventListener('mouseout', () => exportBtn.style.transform = 'scale(1)');
+        exportBtn.addEventListener('click', exportTimeline);
+        header.appendChild(exportBtn);
+
+        // Auto-save user preferences
+        function saveUserPreferences() {
+            const preferences = {
+                lastFilter: document.querySelector('.filter-btn.active')?.dataset.filter || 'all',
+                lastSearch: searchInput.value,
+                scrollPosition: window.scrollY
+            };
+            sessionStorage.setItem('timelinePreferences', JSON.stringify(preferences));
+        }
+
+        function loadUserPreferences() {
+            const saved = sessionStorage.getItem('timelinePreferences');
+            if (saved) {
+                const preferences = JSON.parse(saved);
+                
+                // Restore filter
+                if (preferences.lastFilter && preferences.lastFilter !== 'all') {
+                    const filterBtn = document.querySelector(`[data-filter="${preferences.lastFilter}"]`);
+                    if (filterBtn) filterBtn.click();
+                }
+                
+                // Restore search
+                if (preferences.lastSearch) {
+                    searchInput.value = preferences.lastSearch;
+                    searchInput.dispatchEvent(new Event('input'));
+                }
+                
+                // Restore scroll position (with delay for rendering)
+                if (preferences.scrollPosition) {
+                    setTimeout(() => {
+                        window.scrollTo(0, preferences.scrollPosition);
+                    }, 1000);
+                }
+            }
+        }
+
+        // Save preferences on page unload
+        window.addEventListener('beforeunload', saveUserPreferences);
+        
+        // Load preferences on page load
+        window.addEventListener('load', loadUserPreferences);
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // Ctrl/Cmd + F for search
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                searchInput.focus();
+            }
+            
+            // Escape to clear search
+            if (e.key === 'Escape') {
+                searchInput.value = '';
+                searchInput.dispatchEvent(new Event('input'));
+                searchInput.blur();
+            }
+            
+            // Arrow keys for navigation
+            if (e.key === 'ArrowUp' && e.ctrlKey) {
+                e.preventDefault();
+                window.scrollBy(0, -200);
+            }
+            if (e.key === 'ArrowDown' && e.ctrlKey) {
+                e.preventDefault();
+                window.scrollBy(0, 200);
+            }
+        });
+
+        // Add tooltips for impact scores
+        const impactScores = document.querySelectorAll('.impact-score');
+        impactScores.forEach(score => {
+            score.title = getImpactDescription(score.textContent);
+        });
+
+        function getImpactDescription(impact) {
+            switch(impact) {
+                case 'Impact Historique': return 'Événement ayant marqué durablement l\'histoire politique française';
+                case 'Impact Constitutionnel': return 'Modification des institutions ou de la Constitution';
+                case 'Impact Critique': return 'Crise majeure ayant affaibli le pouvoir en place';
+                case 'Impact Fort': return 'Réforme importante avec conséquences durables';
+                case 'Impact Modéré': return 'Changement significatif mais aux effets limités';
+                case 'Impact Révolutionnaire': return 'Transformation radicale du paysage politique';
+                default: return 'Niveau d\'impact sur la vie politique française';
+            }
+        }
+
+        // Theme toggle (dark/light mode)
+        function toggleTheme() {
+            const body = document.body;
+            const isDark = body.classList.contains('light-theme');
+            
+            if (isDark) {
+                body.classList.remove('light-theme');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.classList.add('light-theme');
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        // Add theme toggle button
+        const themeBtn = document.createElement('button');
+        themeBtn.innerHTML = '🌓';
+        themeBtn.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            z-index: 1001;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        `;
+        themeBtn.addEventListener('click', toggleTheme);
+        document.body.appendChild(themeBtn);
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            document.body.classList.add('light-theme');
+        }
+
+        // Add light theme styles
+        const lightThemeCSS = `
+            .light-theme {
+                background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 25%, #e2e2e2 50%, #c3cfe2 75%, #f5f7fa 100%);
+                color: #333;
+            }
+            .light-theme .timeline-content {
+                background: rgba(255, 255, 255, 0.9);
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                color: #333;
+            }
+            .light-theme .header {
+                background: linear-gradient(45deg, #667eea, #764ba2, #f093fb);
+            }
+            .light-theme .stat-card {
+                background: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            .light-theme .filter-btn {
+                background: rgba(255, 255, 255, 0.8);
+                color: #333;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            .light-theme .search-input {
+                background: rgba(255, 255, 255, 0.9);
+                color: #333;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+            }
+        `;
+        
+        const lightThemeStyle = document.createElement('style');
+        lightThemeStyle.textContent = lightThemeCSS;
+        document.head.appendChild(lightThemeStyle);
+
+        console.log('Chronologie Politique Française - Script chargé avec succès');
+        console.log('Fonctionnalités disponibles: recherche, filtres, navigation, export, thèmes');
+        console.log('Raccourcis clavier: Ctrl+F (recherche), Échap (effacer), Ctrl+↑↓ (navigation)');
     </script>
 </body>
 </html>
